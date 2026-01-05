@@ -18,6 +18,7 @@
     --bleuIndigo : #1B263B;
     --bleuPétrole : #415A77;
     --bleuCiel : #778DA9;
+    --bleuFoncé : #4169e1;
     --blancCassé : #E0E1DD;
 }
 
@@ -27,6 +28,16 @@ html, body
     font-family: 'Dastin';
 }
 
+h1
+{
+    font-size: 3rem;
+}
+
+p
+{
+    font-size: 1.5rem;
+    color: var(--bleuFoncé);
+}
 
 /************/
 /*  Banner  */
@@ -71,7 +82,7 @@ html, body
 {
     height: 300px;
     width: 300px;
-    background-color: var(--bleuPétrole);
+    background-color: var(--bleuCiel);
     opacity: 80%;
 }
 
@@ -80,12 +91,33 @@ html, body
     color: #fff;
 }
 
-h1
+/*******************/
+/*  main-content  */
+/******************/
+
+article
 {
-    font-size: 3rem;
+    padding: 300px 0;
 }
 
-p
-{
-    font-size: 1.5rem;
+.quote {
+    position: relative;
+    text-align: center;
+}
+
+/* Guillemets */
+.quote-open,
+.quote-close {
+    position: absolute;
+    width: 40px;
+}
+
+.quote-open {
+    top: 30%;
+    left: -5%;
+}
+
+.quote-close {
+    bottom: 35%;
+    right: -5%;
 }
