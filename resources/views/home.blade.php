@@ -1,11 +1,15 @@
 <x-app-layout>
     <section class="banner">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="bannerTitle">
-                        {{ $homeData['banner']['main_Title'] }}
-                    </h1>
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-4">
+                    <div class="box d-flex justify-content-center align-items-center">
+                        <h1 class="bannerTitle text-center">
+                            {{ $homeData['banner']['main_Title'] }}
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-8">
                     <p>
                         @foreach ($homeData['banner']['subtitle'] as $line  )
                            <span class="banner-line">

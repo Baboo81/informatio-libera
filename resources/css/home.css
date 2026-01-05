@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&display=swap" rel="stylesheet">');
+
+@font-face
+{
+  font-family: 'Dastin';
+  src : url('../fonts/Dastin.otf') format('opentype'),
+        url('../fonts/Dastin.ttf') format('trutype'),
+        url('../fonts/Dastin.woff') format('woff'),
+        url('../fonts/Dastin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root
+{
+    --bleuNuit : #0D1B2A;
+    --bleuIndigo : #1B263B;
+    --bleuPétrole : #415A77;
+    --bleuCiel : #778DA9;
+    --blancCassé : #E0E1DD;
+}
+
+html, body
+{
+    background-color: var(--bleuNuit);
+    font-family: 'Dastin';
+}
+
 
 /************/
 /*  Banner  */
@@ -11,6 +40,10 @@
     background-repeat: no-repeat;
     position: relative;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .banner::before
@@ -18,7 +51,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -34,7 +67,20 @@
     margin-bottom: .5em;
 }
 
+.box
+{
+    height: 300px;
+    width: 300px;
+    background-color: var(--bleuPétrole);
+    opacity: 80%;
+}
+
 .bannerTitle, .banner-line
 {
     color: #fff;
+}
+
+h1
+{
+    font-size: 3rem;
 }
