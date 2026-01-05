@@ -11,7 +11,7 @@ import '../css/app.css';
 // 👉 styles personnalisés pour la nav
 // 👉 sera compilé par Vite et injecté automatiquement
 import '../css/navbar.css';
-
+import '../css/home.css';
 // Importe Alpine.js
 // 👉 micro-framework JS utilisé par Breeze
 // 👉 parfait pour des interactions simples (dropdown, toggle, etc.)

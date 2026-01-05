@@ -5,7 +5,7 @@
         <a href="{{ url('/') }}" class="logo d-flex align-items-center me-auto me-xl-0">
             <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}"
                 alt="Logo du site, ce logo représente une ampoule avec à l'intérieure un personnage assis sur une pile de livres">
-            <h1 class="sitename">Informatio Libera</h1>
+            <h1 class="sitename text-center">Informatio Libera</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -13,8 +13,6 @@
                 <li><a href="{{ route('home') }}" class="active">Accueil</a></li>
                 <li><a href="#">Qui suis-je ?</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
                 <li class="dropdown"><a href="#"><span>Catégories</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
