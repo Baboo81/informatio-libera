@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-4">
-                    <div class="box d-flex justify-content-center align-items-center">
+                    <div class="box d-flex justify-content-center align-items-center rounded-5">
                         <h1 class="bannerTitle text-center">
                             {{ $homeData['banner']['main_Title'] }}
                         </h1>
