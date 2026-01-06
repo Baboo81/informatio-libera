@@ -14,6 +14,7 @@
                     <p>
                         @foreach ($homeData['banner']['subtitle'] as $line  )
                            <span class="banner-line">
+                                <i class="bi bi-lightbulb banner-icon"></i>
                                 {!! $line !!}
                            </span>
                         @endforeach
