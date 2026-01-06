@@ -12,11 +12,11 @@
                 </div>
                 <div class="col-8">
                     <p>
-                        @foreach ($homeData['banner']['subtitle'] as $line  )
-                           <span class="banner-line">
+                        @foreach ($homeData['banner']['subtitle'] as $line)
+                            <span class="banner-line">
                                 <i class="bi bi-lightbulb banner-icon"></i>
                                 {!! $line !!}
-                           </span>
+                            </span>
                         @endforeach
                     </p>
                 </div>
@@ -32,13 +32,15 @@
                 <div class="col-8">
                     <article class="quote">
                         <div class="text-start">
-                            <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}" alt="picto représentant des guillemets" class="quote-open">
+                            <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}"
+                                alt="picto représentant des guillemets" class="quote-open">
                         </div>
                         <p class="text-center">
                             {{ $homeData['main_content']['content'] ?? '' }}
                         </p>
                         <div class="text-end">
-                            <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}" alt="picto représentant des guillemets" class="quote-close">
+                            <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}"
+                                alt="picto représentant des guillemets" class="quote-close">
                         </div>
                     </article>
                 </div>
@@ -46,4 +48,36 @@
         </div>
     </section>
     {{-- Section : main-Content END --}}
+
+    {{-- Section : comments --}}
+    <section id="comments">
+        <div class="container">
+            <div class="row">
+                <h3>Commentaires</h3>
+
+                @forelse ($comments as $comment)
+                    <div class="comment">
+                        <strong>{{ $comment->user->name }}</strong>
+                        <p>{{ $comment->content }}</p>
+                        <small>{{ $comment->created_at->diffForHumans() }}</small>
+                    </div>
+                @empty
+                    <p>Aucun commentaire pour le moment.</p>
+                @endforelse
+
+                @auth
+                    <form action="{{ route('comments.store') }}" method="POST">
+                        @csrf
+                        <textarea name="content" required placeholder="Écrire un commentaire..."></textarea>
+                        <button type="submit">Publier</button>
+                    </form>
+                @else
+                    <p>
+                        <a href="{{ route('login') }}">Connectez-vous</a> pour laisser un commentaire.
+                    </p>
+                @endauth
+            </div>
+        </div>
+    </section>
+    {{-- Section : comments END --}}
 </x-app-layout>
