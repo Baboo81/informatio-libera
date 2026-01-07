@@ -29,7 +29,7 @@
     <section class="main-content">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <h2 class="text-center">{{ $homeData['main_content']['main_title1'] ?? '' }}</h2>
+                <h2 class="text-center p-5 my-5">{{ $homeData['main_content']['main_title1'] ?? '' }}</h2>
                 <div class="col-8">
                     <article class="quote">
                         <div class="text-start">

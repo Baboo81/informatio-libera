@@ -154,20 +154,24 @@ article
 {
     position: relative;
     background-color: var(--blancCassé);
-    border-radius: 1rem;
-    padding: 1rem 1.25rem;
-    max-width: 100%;
+    border-radius: 2rem / 1.5rem; /* forme ovale horizontale */
+    padding: 1rem 1.5rem;
+    max-width: 70%;
+    margin-bottom: 1rem;
 }
 
+/* flèche arrondie */
 .comment-bubble::after
 {
     content: '';
     position: absolute;
-    bottom: -10px;
-    left: 30px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-top-color: #f8f9fa;
+    bottom: -12px; /* ajuster la distance sous la bulle */
+    left: 40px;    /* position horizontale de la flèche */
+    width: 20px;
+    height: 12px;
+    background: var(--blancCassé);
+    border-radius: 10px 10px 0 0; /* arrondi de la flèche */
+    transform: rotate(45deg);      /* orientation flèche */
+    z-index: 0;
 }
 /* Comments box END*/
