@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Dom\Comment;
+use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
@@ -12,7 +13,7 @@ class CommentController extends Controller
     {
         //Applique le middleware 'auth' à toutes les méthodes de ce contrôleur,
         //afin que seuls les utilisateurs connectés puisssent accèder aux commentaire :
-        $this->middleware('auth');
+        $this->middleware('auth')->only('store');
     }
 
     // Méthode pour stocker un nouveau commentaire :
@@ -32,7 +33,7 @@ class CommentController extends Controller
         // auth()->id() → récupère l'identifiant de l'utilisateur connecté
         Comment::create([
             'content' => $request->content,
-            'user_id' => auth()->id(),
+            'user_id' => Auth::id(),
         ]);
 
         // Redirige l'utilisateur vers la page précédente

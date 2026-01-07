@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use PSpell\Config;
 
@@ -12,7 +13,12 @@ class HomeController extends Controller
         //Récupération des datas de la home depuis config/data/home.php
         $homeData = config('data.home');
 
+        //Récupération des commentaires :
+        $comments = Comment::with('user')
+            ->latest()
+            ->get();
+
         //On envoie à la vue
-        return view('home', compact('homeData'));
+        return view('home', compact('homeData', 'comments'));
     }
 }

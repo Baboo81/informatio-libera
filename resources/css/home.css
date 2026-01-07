@@ -33,6 +33,12 @@ h1
     font-size: 3rem;
 }
 
+h2
+{
+    font-size: 2rem;
+    color: var(--blancCassé);
+}
+
 p
 {
     font-size: 1.5rem;
@@ -135,4 +141,9 @@ article
 .quote-close {
     bottom: 35%;
     right: -5%;
+}
+
+.comments-box
+{
+    padding: 300px 0;
 }

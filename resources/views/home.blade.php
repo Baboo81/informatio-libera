@@ -29,6 +29,7 @@
     <section class="main-content">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
+                <h2 class="text-center">Que vous propose Informatio Libera ?</h2>
                 <div class="col-8">
                     <article class="quote">
                         <div class="text-start">
@@ -52,30 +53,31 @@
     {{-- Section : comments --}}
     <section id="comments">
         <div class="container">
-            <div class="row">
-                <h3>Commentaires</h3>
+            <div class="row d-flex justify-content-center align-items-center">
+                <h2 class="text-center">Laissez-moi votre commentaire</h2>
+                <div class="col-8 comments-box">
+                    @forelse ($comments as $comment)
+                        <div class="comment">
+                            <strong>{{ $comment->user->name }}</strong>
+                            <p>{{ $comment->content }}</p>
+                            <small>{{ $comment->created_at->diffForHumans() }}</small>
+                        </div>
+                    @empty
+                        <p>Aucun commentaire pour le moment.</p>
+                    @endforelse
 
-                @forelse ($comments as $comment)
-                    <div class="comment">
-                        <strong>{{ $comment->user->name }}</strong>
-                        <p>{{ $comment->content }}</p>
-                        <small>{{ $comment->created_at->diffForHumans() }}</small>
-                    </div>
-                @empty
-                    <p>Aucun commentaire pour le moment.</p>
-                @endforelse
-
-                @auth
-                    <form action="{{ route('comments.store') }}" method="POST">
-                        @csrf
-                        <textarea name="content" required placeholder="Écrire un commentaire..."></textarea>
-                        <button type="submit">Publier</button>
-                    </form>
-                @else
-                    <p>
-                        <a href="{{ route('login') }}">Connectez-vous</a> pour laisser un commentaire.
-                    </p>
-                @endauth
+                    @auth
+                        <form action="{{ route('comments.store') }}" method="POST">
+                            @csrf
+                            <textarea name="content" required placeholder="Écrire un commentaire..."></textarea>
+                            <button type="submit">Publier</button>
+                        </form>
+                    @else
+                        <p>
+                            <a href="{{ route('login') }}">Connectez-vous</a> pour laisser un commentaire.
+                        </p>
+                    @endauth
+                </div>
             </div>
         </div>
     </section>

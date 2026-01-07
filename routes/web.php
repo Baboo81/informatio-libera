@@ -25,7 +25,7 @@ Route::middleware('auth')->group(function () {
 ///  Routes : gestion des commentaires ///
 //////////////////////////////////////////
 Route::post('/comments', [CommentController::class, 'store'])
-    ->name('comment.store')
+    ->name('comments.store')
     ->middleware('auth');
 
 require __DIR__.'/auth.php';
