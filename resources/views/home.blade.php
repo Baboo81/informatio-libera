@@ -29,7 +29,7 @@
     <section class="main-content">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <h2 class="text-center">Que vous propose Informatio Libera ?</h2>
+                <h2 class="text-center">{{ $homeData['main_content']['main_title1'] ?? '' }}</h2>
                 <div class="col-8">
                     <article class="quote">
                         <div class="text-start">
@@ -54,28 +54,54 @@
     <section id="comments">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <h2 class="text-center">Laissez-moi votre commentaire</h2>
-                <div class="col-8 comments-box">
+                <h2 class="text-center">{{ $homeData['main_content']['main_title2'] ?? '' }}</h2>
+                <div class="col-12 comments-box">
                     @forelse ($comments as $comment)
-                        <div class="comment">
-                            <strong>{{ $comment->user->name }}</strong>
-                            <p>{{ $comment->content }}</p>
-                            <small>{{ $comment->created_at->diffForHumans() }}</small>
+                        <div class="comment-bubble mb-4">
+                            <div class="bubble-content">
+                                <strong>{{ $comment->user->name }}</strong>
+                                <p class="mb-1">{{ $comment->content }}</p>
+                                <small class="text-muted">
+                                    {{ $comment->created_at->diffForHumans() }}
+                                </small>
+                            </div>
                         </div>
                     @empty
                         <p>Aucun commentaire pour le moment.</p>
                     @endforelse
 
                     @auth
-                        <form action="{{ route('comments.store') }}" method="POST">
-                            @csrf
-                            <textarea name="content" required placeholder="Écrire un commentaire..."></textarea>
-                            <button type="submit">Publier</button>
-                        </form>
+                        <div class="card shadow-sm mt-4">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Laisser un commentaire</h5>
+
+                                <form action="{{ route('comments.store') }}" method="POST">
+                                    @csrf
+
+                                    <div class="mb-3">
+                                        <textarea name="content" class="form-control @error('content') is-invalid @enderror" rows="4"
+                                            placeholder="Écrire un commentaire..." required>{{ old('content') }}</textarea>
+
+                                        @error('content')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
+                                    </div>
+
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary">
+                                            Publier
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     @else
-                        <p>
-                            <a href="{{ route('login') }}">Connectez-vous</a> pour laisser un commentaire.
-                        </p>
+                        <div class="alert alert-info mt-4">
+                            <a href="{{ route('login') }}" class="alert-link">Connectez-vous</a>
+                            pour laisser un commentaire.
+                        </div>
                     @endauth
                 </div>
             </div>

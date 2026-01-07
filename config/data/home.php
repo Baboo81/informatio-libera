@@ -10,7 +10,8 @@ return [
         ]
     ],
     'main_content' => [
-        'main_title' => "Que vous propose Informatio Libera ?",
+        'main_title1' => "Que vous propose Informatio Libera ?",
         'content' => "Informatio Libera a pour objectif d'apporter un nouvel angle de vue sur des thématiques qui sont de nos jours tronquées par les médias de masse. La sélection des différentes plateformes est basée sur des critères tels que ; l'honnêteté intellectuelle mais aussi sur l'intégrité de ces auteurs. Á l'heure actuelle les médias subventionnées ne jouissent plus de l'indépendance dont ils devraient être garants, d'où l'intérêt d'avoir mis sur pied ce site qui vous permettra de découvrir une série de plateforme qui oeuvre dans le sens de la souveraineté intellectuelle et du libre arbitre.",
+        'main_title2' => "Laissez-moi votre commentaire",
     ],
 ];
