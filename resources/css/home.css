@@ -153,7 +153,7 @@ article
 .comment-bubble
 {
     position: relative;
-    background-color: var(--blancCassé);
+    background-color: var(--bleuCiel);
     border-radius: 2rem / 1.5rem; /* forme ovale horizontale */
     padding: 1rem 1.5rem;
     max-width: 70%;
@@ -169,9 +169,9 @@ article
     left: 40px;    /* position horizontale de la flèche */
     width: 20px;
     height: 12px;
-    background: var(--blancCassé);
+    background: var(--bleuCiel);
     border-radius: 10px 10px 0 0; /* arrondi de la flèche */
-    transform: rotate(45deg);      /* orientation flèche */
+    transform: rotate(180deg);      /* orientation flèche */
     z-index: 0;
 }
 /* Comments box END*/
