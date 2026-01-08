@@ -90,7 +90,7 @@
                                     </div>
 
                                     <div class="d-flex justify-content-end">
-                                        <button type="submit" class="btn btn-primary">
+                                        <button type="submit" class="btn">
                                             Publier
                                         </button>
                                     </div>

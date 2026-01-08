@@ -54,7 +54,7 @@
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn-getstarted" href="#about">Commencer</a>
+        <a class="btn" href="#about">Commencer</a>
 
     </div>
 </header>
