@@ -1,11 +1,18 @@
 <?php
 
+use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\GeopolitiqueController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('geopolitique', [GeopolitiqueController::class, 'show'])->name('geopolitique');
+Route::get('actualite', [ActualiteController::class, 'show'])->name('actualite');
+
+
+
 
 //////////////////////////
 ///  Authentification ///
