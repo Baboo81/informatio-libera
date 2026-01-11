@@ -24,7 +24,12 @@
 
 html, body
 {
-    background-color: var(--bleuNuit);
+    background-color: #121212; /* fond sombre */
+    background-image: url('../../public/assets/img/backGround.png');
+    background-repeat: repeat;
+    background-size: auto;
+    color: #f0f0f0;
+    position: relative;
     font-family: 'Dastin';
 }
 
@@ -113,7 +118,7 @@ p
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 100vh;
+    min-height: 96vh;
     display: flex;
     justify-content: center;
     align-items: center;
