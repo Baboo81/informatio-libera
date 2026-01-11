@@ -1,7 +1,7 @@
 <x-app-layout>
     <section class="geopolitique-content">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <h2 class="text-center"></h2>
 
                 <div class="col-12">

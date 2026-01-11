@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&display=swap" rel="stylesheet">');
+
+@font-face
+{
+  font-family: 'Dastin';
+  src : url('../fonts/Dastin.otf') format('opentype'),
+        url('../fonts/Dastin.ttf') format('trutype'),
+        url('../fonts/Dastin.woff') format('woff'),
+        url('../fonts/Dastin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root
+{
+    --bleuNuit : #0D1B2A;
+    --bleuIndigo : #1B263B;
+    --bleuPétrole : #415A77;
+    --bleuCiel : #778DA9;
+    --bleuFoncé : #4169e1;
+    --blancCassé : #E0E1DD;
+}
+
 a
 {
 	cursor:pointer;
@@ -8,11 +32,16 @@ p
 	padding-bottom:1rem;
 }
 
-h5
+h5.card-title
 {
   text-transform:uppercase;
-	font-weight:bold;
-	color:#2b2b2b;
+  font-weight:bold;
+  color: var(--blancCassé);
+}
+
+hr
+{
+    color: var(--blancCassé);
 }
 
 .box-shadow
@@ -40,7 +69,7 @@ h5
 .card
 {
 	border-radius: 25px;
-
+    background-color: var(--bleuNuit);
 }
 
 .card img
