@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&display=swap" rel="stylesheet">');
+
+@font-face
+{
+  font-family: 'Dastin';
+  src : url('../fonts/Dastin.otf') format('opentype'),
+        url('../fonts/Dastin.ttf') format('trutype'),
+        url('../fonts/Dastin.woff') format('woff'),
+        url('../fonts/Dastin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root
+{
+    --bleuNuit : #0D1B2A;
+    --bleuIndigo : #1B263B;
+    --bleuPétrole : #415A77;
+    --bleuCiel : #778DA9;
+    --bleuFoncé : #4169e1;
+    --blancCassé : #E0E1DD;
+}
+
 /* ================= HEADER ================= */
 
 .header {
-  color: #212529;
+  color: var(--blancCassé);
   background-color: rgba(255, 255, 255, 0);
   padding: 20px 0;
   transition: all 0.5s;
@@ -9,7 +33,7 @@
 }
 
 .header .header-container {
-  background: #ffffff;
+  background: var(--bleuIndigo);
   border-radius: 50px;
   padding: 5px 25px 5px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -30,7 +54,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #1a1a1a;
+  color: var(--bleuFoncé);
 }
 
 .header .btn-getstarted {
@@ -45,6 +69,17 @@
 
 .header .btn-getstarted:hover {
   background: rgba(13, 110, 253, 0.85);
+}
+
+/* Dropdown Desktop */
+.navmenu .dropdown ul {
+    display: block;          /* assure que les éléments sont empilés */
+    flex-direction: column;  /* utile si jamais parent flex */
+}
+
+.navmenu .dropdown ul li {
+    width: 100%;             /* chaque item prend toute la largeur */
+    display: block;          /* assure qu’ils s’empilent verticalement */
 }
 
 /* ================= HEADER RESPONSIVE ================= */
@@ -90,7 +125,7 @@
   }
 
   .navmenu a {
-    color: #212529;
+    color: var(--blancCassé);
     padding: 18px 15px;
     font-size: 16px;
     font-weight: 400;

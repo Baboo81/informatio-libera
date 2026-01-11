@@ -41,7 +41,7 @@ h1
 h2
 {
     font-size: 2rem;
-    color: var(--blancCassé);
+    color: var(--bleuFoncé);
 }
 
 p
@@ -145,11 +145,12 @@ p
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    color: var(--blancCassé);
 }
 
 .banner-icon
 {
-    color: #f1c40f;
+    color: var(--bleuFoncé);
     font-size: 1.1rem;
     flex-shrink: 0;
     animation: glow 2.5s infinite ease-in-out;
@@ -157,7 +158,7 @@ p
 
 @keyframes glow
 {
-    0%, 100% { opacity: 0.7; }
+    0%, 100% { opacity: 0.2; }
     50% { opacity: 1; }
 }
 
@@ -165,13 +166,13 @@ p
 {
     height: 300px;
     width: 300px;
-    background-color: var(--bleuCiel);
+    background-color: var(--bleuFoncé);
     opacity: 80%;
 }
 
-.bannerTitle, .banner-line
+.bannerTitle
 {
-    color: #fff;
+    color: var(--blancCassé);
 }
 
 /*******************/
@@ -186,6 +187,15 @@ article
 .quote {
     position: relative;
     text-align: center;
+}
+
+.black-box
+{
+    background-color: var(--bleuNuit);
+    border-radius: 50px;
+    opacity: 70%;
+    width: auto;
+    padding: 0px 150px;
 }
 
 /* Guillemets */
@@ -207,6 +217,11 @@ article
 /* Guillemets END*/
 
 /* Comments box */
+.comments
+{
+    padding: 300px 0;
+}
+
 .comments-box
 {
     padding: 300px 0;

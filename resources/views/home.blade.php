@@ -31,19 +31,21 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <h2 class="text-center p-5 my-5">{{ $homeData['main_content']['main_title1'] ?? '' }}</h2>
                 <div class="col-8">
-                    <article class="quote">
-                        <div class="text-start">
-                            <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}"
-                                alt="picto représentant des guillemets" class="quote-open">
-                        </div>
-                        <p class="text-center">
-                            {{ $homeData['main_content']['content'] ?? '' }}
-                        </p>
-                        <div class="text-end">
-                            <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}"
-                                alt="picto représentant des guillemets" class="quote-close">
-                        </div>
-                    </article>
+                    <section class="black-box">
+                        <article class="quote">
+                            <div class="text-start">
+                                <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}"
+                                    alt="picto représentant des guillemets" class="quote-open">
+                            </div>
+                            <p class="text-center">
+                                {{ $homeData['main_content']['content'] ?? '' }}
+                            </p>
+                            <div class="text-end">
+                                <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}"
+                                    alt="picto représentant des guillemets" class="quote-close">
+                            </div>
+                        </article>
+                    </section>
                 </div>
             </div>
         </div>
@@ -51,7 +53,7 @@
     {{-- Section : main-Content END --}}
 
     {{-- Section : comments --}}
-    <section id="comments">
+    <section id="comments"class="comments">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <h2 class="text-center">{{ $homeData['main_content']['main_title2'] ?? '' }}</h2>
