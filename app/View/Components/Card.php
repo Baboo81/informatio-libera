@@ -10,6 +10,7 @@ class Card extends Component
     //Constructeur du composant, qui s'exècutera à chaque fois que l'on appelles <x-card> ds une view
     public function __construct(
         public string $title,//= <x-card title="titre">
+        public ?string $subTitle = null,
         public ?string $image = null,
         public ?string $link = null,
         public ?string $icon = null

@@ -16,10 +16,10 @@
                 <li class="dropdown"><a href="#"><span>Catégories</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="#">Géopolitique</a></li>
+                        <li><a href="{{ route('geopolitique') }}">Géopolitique</a></li>
                         <li><a href="#">Économie</a></li>
                         <li><a href="#">Santé</a></li>
-                        <li><a href="#">Actualité</a></li>
+                        <li><a href="{{ route('actualite') }}">Actualité</a></li>
                         <li><a href="#">Souveraineté</a></li>
                         <li><a href="#">Psychologie</a></li>
                     </ul>

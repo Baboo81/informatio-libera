@@ -12,6 +12,7 @@ import '../css/app.css';
 // 👉 sera compilé par Vite et injecté automatiquement
 import '../css/navbar.css';
 import '../css/home.css';
+import '../css/geopolitique.css';
 // Importe Alpine.js
 // 👉 micro-framework JS utilisé par Breeze
 // 👉 parfait pour des interactions simples (dropdown, toggle, etc.)
