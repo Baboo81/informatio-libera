@@ -37,6 +37,8 @@ h5.card-title
   text-transform:uppercase;
   font-weight:bold;
   color: var(--blancCassé);
+  letter-spacing: .1rem;
+  font-size: 2rem;
 }
 
 hr
