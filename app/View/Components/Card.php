@@ -8,12 +8,23 @@ use Illuminate\View\Component;//Import de la classe Component fournie par Larave
 class Card extends Component
 {
     //Constructeur du composant, qui s'exècutera à chaque fois que l'on appelles <x-card> ds une view
+    /**
+     * Crée le composant Card.
+     *
+     * @param string $title
+     * @param string|null $subTitle
+     * @param string|null $image
+     * @param string|null $icon
+     * @param array $blocks  // tableau des contenus + liens
+     */
+
     public function __construct(
         public string $title,//= <x-card title="titre">
         public ?string $subTitle = null,
         public ?string $image = null,
         public ?string $link = null,
-        public ?string $icon = null
+        public ?string $icon = null,
+        public array $blocks = [],
     ) {}//Constructeur abrégé, évite d'écrire : $this->title = $title
 
     //Indique à Laravel quelle vue doit être rendue

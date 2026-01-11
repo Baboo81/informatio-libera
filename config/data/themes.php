@@ -109,10 +109,4 @@ Thierry est aussi écrivain, vous pourrez trouver dans la section livres du site
             ],
         ],
     ],
-    'actualite' => [
-        [
-            //card : A.Penasse
-
-        ]
-    ]
 ];
