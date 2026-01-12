@@ -241,27 +241,136 @@ Il est l'auteur de plusieurs livres: 666, 777, 888, Enquête sur les anges gardi
     'sante' => [
         [
             // Card : I. Aberkane
-            'title' => "Idriss Aberkane",
-            'sub_title' => "Écrivain, Ph.D",
-            'image' => "assets/img/geopolitique/IdrissAberkane.jpg",
+            'title' => "Ema Krusi",
+            'sub_title' => "Phsycopraticienne & formatrice",
+            'image' => "assets/img/sante/emaKrusi.jpg",
             'icon' => "fas fa-disease",
 
             'blocks' => [
                 [
-                    'content' => "Idriss.A possède trois doctorats dans les domaines suivants : Littérature Comparée, Diplomatie & Relations Internationales ainsi que les Neurosciences. Pour visiter son site personnel, cliquez sur le bouton ci-dessous :",
+                    'content' => "Ema est connue pour ses travaux sur la naissance, le couple ainsi que ses prises de positions publiques sur l'autonomie, l'esprit critique, la manipulation de l'information et la psychologie.",
                     'links' => [
                         [
-                            'url' => "https://idrissaberkane.org/",
+                            'url' => "https://classic.emakrusi.com/",
                             'label' => "Site officiel",
                         ],
                     ],
                 ],
                 [
-                    'content' => "Idriss.A s'intéresse à une multitude de sujets autres que la géopolitique tels que les sciences, l'économie, l'I.A… Il développe ces thématiques avec beaucoup de rigueur et de neutralité. Idriss.A a créé Scanderia, un site axé sur l'apprentissage de divers sujets : économie, géopolitique, etc. Vous pourrez trouver dans la section livres du site quelques références.",
+                    'content' => "Ema s'est spécialisée dans la périnatalité en proposant un programme d'accompagnement aux futurs parents. Dans ce cadre là, Ema à lancer un site spécialement dédié à cette thématique.",
                     'links' => [
                         [
-                            'url' => "https://www.scanderia.com/",
-                            'label' => "Découvrir Scanderia",
+                            'url' => "https://emakrusi.com/",
+                            'label' => "Site Mastermind de la naissance",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card :N.Grosjean
+            'title' => "Nelly Grosjean",
+            'sub_title' => "Naturopathe, aromathérapeute & formatrice",
+            'image' => "assets/img/sante/nellyGrosjean.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Nelly Grosjean est naturopathe et aromathérapeute, spécialisée dans l’accompagnement global de la santé par des méthodes naturelles et préventives. À travers son expertise, elle propose des solutions adaptées à chaque individu, favorisant l’équilibre physique, émotionnel et énergétique. Passionnée par les plantes et les huiles essentielles, elle transmet son savoir avec un souci constant de bien-être, de prévention et d’autonomie face à sa santé.",
+                    'links' => [
+                        [
+                            'url' => "https://universnellygrosjean.com/",
+                            'label' => "Site officiel",
+                        ],
+                        [
+                            'url' => "https://biossentiel.com/",
+                            'label' => "Site Biossentiel",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : J-J.Crevecoeur
+            'title' => "Jean-Jacques Crevecoeur",
+            'sub_title' => "Formateur & Physicien",
+            'image' => "assets/img/sante/jjc.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Jean-Jacques est l'auteur de plusieurs livres très éclairants sur les jeux de pouvoir, la façon de prendre soin de ces besoins. IL donne des formations sur tout un panel de thématiques qui visent à vivre en harmonie avec soi-même ainsi qu'avec les autres, ses formations orientent l'élève vers l'autonomie, la souveraineté et la santé.",
+                    'links' => [
+                        [
+                            'url' => "https://formations.emergences.net/",
+                            'label' => "Site officiel",
+                        ],
+                        [
+                            'url' => "https://www.instagram.com/jj.crevecoeur.officiel/?hl=fr",
+                            'label' => "Instagram",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : M-S.Lelouche
+            'title' => "Marie-Sophie L",
+            'sub_title' => "Naturopathe & Raw Chef",
+            'image' => "assets/img/sante/marieSophieL.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Marie-Sophie va vous donner l'eau à la bouche en vous faisant découvrir la crusine, ses recettes sont épatantes et délicieuses.
+Grâce à la crusine vous ferez un bien fou à votre corps de façon globale.",
+                    'links' => [
+                        [
+                            'url' => "https://mariesophiel.com/",
+                            'label' => "Site L'Instant Cru",
+                        ],
+                        [
+                            'url' => "https://www.instagram.com/mariesophiel/?hl=fr",
+                            'label' => "Instagram",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : T.Casasnovas
+            'title' => "Thierry Casasnovas",
+            'sub_title' => "Conseiller en santé",
+            'image' => "assets/img/sante/thierryCasasnovas.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Thierry Casasnovas est une figure influente du bien‑être alternatif en ligne, connu pour ses vidéos et contenus centrés sur l’hygiène de vie, l’alimentation crue, le jeûne et les approches naturelles de la santé. Depuis plus d’une décennie, il a fédéré une large audience à travers ses conseils et réflexions autour de modes de vie dits “naturels”.",
+                    'links' => [
+                        [
+                            'url' => "https://rgnr.tv/",
+                            'label' => "Site RGNR",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : Robin Des Toits
+            'title' => "Robin Des Toits ",
+            'sub_title' => "Pollution élèctromagnétique liée aux réseaux téléphoniques",
+            'image' => "assets/img/sante/robinDesToits.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Dans un monde saturé de technologies invisibles et omniprésentes, la vigilance devient un acte de liberté.
+Robin des Toits invite chacun à questionner l’impact des ondes électromagnétiques sur la santé et sur notre environnement, au‑delà des discours officiels et des habitudes installées. Comprendre, analyser et débattre permet de rester acteur de sa vie et de son corps, plutôt que simple spectateur des avancées technologiques. L’association encourage ainsi un esprit critique éclairé, conscient des risques et des choix que la société fait chaque jour pour elle-même.",
+                    'links' => [
+                        [
+                            'url' => "https://www.robindestoits.org/",
+                            'label' => "Site officiel",
                         ],
                     ],
                 ],
