@@ -25,6 +25,11 @@ h2
     color: var(--bleuFoncé);
 }
 
+h6
+{
+    color: var(--blancCassé) !important;
+}
+
 p.lead
 {
     font-size: 2rem;

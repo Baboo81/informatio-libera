@@ -186,5 +186,56 @@ Thierry est aussi écrivain, vous pourrez trouver dans la section livres du site
                 ],
             ],
         ],
+        [
+            // Card : P.Chaillot
+            'title' => "Pierre Chaillot",
+            'sub_title' => "Statisticien & Auteur",
+            'image' => "assets/img/actualite/pierreChaillot.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Pierre Chaillot est statisticien et analyste indépendant, spécialisé dans l’interprétation critique des données et des chiffres qui façonnent notre compréhension du monde. À travers ses travaux et ses publications, il examine les informations statistiques publiées par les institutions et les médias, met en lumière les biais méthodologiques et aide à distinguer le signal du bruit. Auteur de plusieurs ouvrages consacrés à la rigueur scientifique et à l’esprit critique, ses livres offrent des clés pour comprendre l’information chiffrée et développer une lecture autonome et éclairée des phénomènes sociaux, économiques et sanitaires.Il est l'auteur des livres : COVID 19 ce que révèlent les chiffres officiels - Victimes des vaccins COVID19.",
+                    'links' => [
+                        [
+                            'url' => "https://bonsens.info/pierre-chaillot/",
+                            'label' => "Site Bon Sens",
+                        ],
+                        [
+                            'url' => "https://www.youtube.com/channel/UCX6iYvJWGOQfGsFo2KSSm-w",
+                            'label' => "Décoder l'éco",
+                        ],
+                        [
+                            'url' => "https://www.linkedin.com/in/pierre-chaillot-109597108/?originalSubdomain=fr",
+                            'label' => "LinkedIn",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : P.Jovanovic
+            'title' => "Pierre Jovanovic",
+            'sub_title' => "Journaliste & Auteur",
+            'image' => "assets/img/actualite/pierreJovanovic.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Pierre est un journaliste spécialisé dans le domaine économique, il décortique l'actualité économique avec beaucoup de clarté et de pertinence.
+Il est l'auteur de plusieurs livres: 666, 777, 888, Enquête sur les anges gardien, ... Vous pourrez trouver les livres de Pierre en cliquant sur le bouton : Le Jardin Des Livres. ",
+                    'links' => [
+                        [
+                            'url' => "https://www.jovanovic.com/index.html",
+                            'label' => "Site officiel",
+                        ],
+                        [
+                            'url' => "https://lejardindeslivres.fr/index.htm",
+                            'label' => "Le Jardin Des Livres",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
 ];
