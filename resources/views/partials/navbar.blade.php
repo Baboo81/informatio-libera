@@ -19,7 +19,7 @@
                         <li><a href="{{ route('geopolitique') }}">Géopolitique</a></li>
                         <li><a href="{{ route('sante') }}">Santé</a></li>
                         <li><a href="{{ route('actualite') }}">Actualité</a></li>
-                        <li><a href="#">Souveraineté</a></li>
+                        <li><a href="{{ route('souverainete') }}">Souveraineté</a></li>
                         <li><a href="#">Psychologie</a></li>
                     </ul>
                 </li>

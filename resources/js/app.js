@@ -16,6 +16,7 @@ import '../css/home.css';
 import '../css/geopolitique.css';
 import '../css/actualite.css';
 import '../css/sante.css';
+import '../css/souverainete.css';
 // Importe Alpine.js
 // 👉 micro-framework JS utilisé par Breeze
 // 👉 parfait pour des interactions simples (dropdown, toggle, etc.)

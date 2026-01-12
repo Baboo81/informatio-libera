@@ -6,12 +6,18 @@ use App\Http\Controllers\GeopolitiqueController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SanteController;
+use App\Http\Controllers\SouveraineteController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+//////////////////////////
+///  Routes -> thèmes ///
+/////////////////////////
 Route::get('geopolitique', [GeopolitiqueController::class, 'show'])->name('geopolitique');
 Route::get('actualite', [ActualiteController::class, 'show'])->name('actualite');
 Route::get('sante', [SanteController::class, 'show'])->name('sante');
+Route::get('souverainete', [SouveraineteController::class, 'show'])->name('souverainete');
 
 
 

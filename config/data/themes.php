@@ -377,4 +377,62 @@ Robin des Toits invite chacun à questionner l’impact des ondes électromagné
             ],
         ],
     ],
+    'souverainete' => [
+        [
+            // Card : L.Fouché
+            'title' => "Dr Louis Fouché",
+            'sub_title' => "Médecin anesthésiste, réanimateur & Auteur",
+            'image' => "assets/img/souverainete/louisFouche.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Le Dr Louis Fouché est médecin anesthésiste-réanimateur, intellectuel de la santé et auteur engagé, dont le parcours se situe à la croisée de la médecine clinique, de l’éthique et de la réflexion philosophique. Médecin de terrain et penseur, il s’intéresse aux enjeux profonds du système de santé, à ses dérives et à ses possibles renaissances, en invitant à une réconciliation entre savoirs traditionnels, science moderne et autonomie intellectuelle individuelle.",
+                    'links' => [
+                        [
+                            'url' => "https://louisfouche.fr/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+                [
+                    'content' => "Auteur de plusieurs ouvrages, dont Tous résistants dans l’âme et Agonie et renouveau du système de santé, son écriture mêle analyse rigoureuse, sensibilité humaine et invitation à la transformation personnelle et collective. Il propose sans cesse des pistes de réflexion et d’action, non violentes et créatives, pour repenser la santé, le lien entre praticiens et patients, et notre rapport à la vie elle-même.",
+                    'links' => [
+                        [
+                            'url' => "https://reinfocovid.fr/articles-scientifiques/",
+                            'label' => "Réinfo COVID",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : J.Branco
+            'title' => "Maître Juan Branco",
+            'sub_title' => "Avocat & Auteur",
+            'image' => "assets/img/souverainete/juanBranco.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Juan Branco est avocat et écrivain engagé dans la défense des libertés publiques et de la justice. Par son travail juridique et ses écrits, il questionne les dérives du pouvoir et œuvre pour une souveraineté citoyenne éclairée.",
+                    'links' => [
+                        [
+                            'url' => "https://juan-branco.fr/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+                [
+                    'content' => "Son engagement se manifeste également dans sa pratique juridique, où il défend des causes liées à la liberté d’expression, aux droits fondamentaux et à la souveraineté citoyenne. En croisant le droit, l’écriture et l’action, Juan Branco incarne une démarche qui vise à rendre aux individus leur capacité à comprendre, contester et transformer les systèmes qui les gouvernent.",
+                    'links' => [
+                        [
+                            'url' => "https://www.youtube.com/@JuanBrancoFR",
+                            'label' => "YouTube",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];
