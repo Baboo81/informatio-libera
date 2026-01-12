@@ -109,4 +109,82 @@ Thierry est aussi écrivain, vous pourrez trouver dans la section livres du site
             ],
         ],
     ],
+    'actualite' => [
+        [
+            // Card : A. Penasse
+            'title' => "Alexandre Penasse",
+            'sub_title' => "Journaliste",
+            'image' => "assets/img/actualite/alexandrePenasse.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Alexandre Penasse est un journaliste indépendant, engagé dans l’analyse critique de l’actualité politique, géopolitique et sociétale. À travers son travail, il s’attache à décrypter les mécanismes du pouvoir, les stratégies d’influence et le traitement médiatique de l’information, en proposant des clés de lecture alternatives et argumentées. Son approche vise à encourager l’esprit critique et l’autonomie de pensée face aux récits dominants.",
+                    'links' => [
+                        [
+                            'url' => "https://www.kairospresse.be/",
+                            'label' => "Site Kairos",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : S.Laïbi
+            'title' => "Salim Laïbi",
+            'sub_title' => "Chirurgien dentiste",
+            'image' => "assets/img/actualite/salimLaibi.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Salim Laïbi est un observateur et commentateur indépendant, connu pour ses prises de position critiques sur les enjeux politiques, médiatiques et institutionnels contemporains. À travers ses analyses, il interroge les discours officiels, les mécanismes de pouvoir et les récits dominants, avec une volonté affirmée de susciter le débat et de stimuler l’esprit critique du public.",
+                    'links' => [
+                        [
+                            'url' => "https://www.lelibrepenseur.org/",
+                            'label' => "Site Le Libre Penseur",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : J-D.Michel
+            'title' => "Jean-Dominique Michel",
+            'sub_title' => "Anthropologue & Expert en santé",
+            'image' => "assets/img/actualite/jdMichel.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Jean-Dominique Michel est un expert en santé publique et analyste indépendant, connu pour ses prises de position critiques sur la gestion des crises sanitaires et les politiques de santé contemporaines. À travers ses interventions et analyses, il questionne les approches institutionnelles, les choix stratégiques et la communication officielle, dans une démarche visant à nourrir le débat public et à encourager une réflexion approfondie et autonome.",
+                    'links' => [
+                        [
+                            'url' => "https://www.jdmichel.tv/",
+                            'label' => "Site J-D Michel",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+        [
+            // Card : P.Barnerias
+            'title' => "Pierre Barnerias",
+            'sub_title' => "Journaliste",
+            'image' => "assets/img/actualite/pierreBarnerias.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Pierre Barnérias est un journaliste et réalisateur indépendant, connu pour ses enquêtes et documentaires traitant de questions politiques, sanitaires et sociétales. À travers son travail, il s’intéresse aux zones d’ombre de l’actualité, aux enjeux de transparence et aux mécanismes d’influence, avec une volonté affirmée de proposer un regard critique et d’alimenter le débat public.",
+                    'links' => [
+                        [
+                            'url' => "https://citizen-light.fr/actualites/",
+                            'label' => "Site Citizen-light",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];
