@@ -11,7 +11,7 @@ class GeopolitiqueController extends Controller
         //Récupération des datas des thèmes depuis config/data/themes.php
         $themesData = config('data.themes.geopolitique');
         //Récupération des datas de géopolitique se trouvant ds config/data/geopolitique.php
-        $geopolitiqueData = config('data.geopolitique.page-content');
+        $geopolitiqueData = config('data.geopolitique.page_content');
 
         //On envoie à la vue
         return view('geopolitique', compact('themesData', 'geopolitiqueData'));

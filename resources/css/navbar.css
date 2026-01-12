@@ -24,7 +24,8 @@
 
 /* ================= HEADER ================= */
 
-.header {
+.header
+{
   color: var(--blancCassé);
   background-color: rgba(255, 255, 255, 0);
   padding: 20px 0;
@@ -32,23 +33,27 @@
   z-index: 997;
 }
 
-.header .header-container {
+.header .header-container
+{
   background: var(--bleuIndigo);
   border-radius: 50px;
   padding: 5px 25px 5px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.header .logo {
+.header .logo
+{
   line-height: 1;
 }
 
-.header .logo img {
-  max-height: 36px;
+.header .logo img
+{
+  max-height: 55px;
   margin-right: 8px;
 }
 
-.header .logo h1 {
+.header .logo h1
+{
   font-size: 20px;
   margin: 0;
   font-weight: 600;
@@ -57,7 +62,8 @@
   color: var(--bleuFoncé);
 }
 
-.header .btn-getstarted {
+.header .btn-getstarted
+{
   color: #ffffff;
   background: #0d6efd;
   font-size: 14px;
@@ -67,52 +73,63 @@
   transition: 0.3s;
 }
 
-.header .btn-getstarted:hover {
+.header .btn-getstarted:hover
+{
   background: rgba(13, 110, 253, 0.85);
 }
 
 /* Dropdown Desktop */
-.navmenu .dropdown ul {
+.navmenu .dropdown ul
+{
     display: block;          /* assure que les éléments sont empilés */
     flex-direction: column;  /* utile si jamais parent flex */
 }
 
-.navmenu .dropdown ul li {
+.navmenu .dropdown ul li
+{
     width: 100%;             /* chaque item prend toute la largeur */
     display: block;          /* assure qu’ils s’empilent verticalement */
 }
 
 /* ================= HEADER RESPONSIVE ================= */
 
-@media (max-width: 1200px) {
-  .header {
+@media (max-width: 1200px)
+{
+  .header
+  {
     padding-top: 10px;
   }
 
-  .header .header-container {
+  .header .header-container
+  {
     margin: 0 10px;
     padding: 10px 5px 10px 15px;
   }
 
-  .header .logo {
+  .header .logo
+  {
     order: 1;
   }
 
-  .header .btn-getstarted {
+  .header .btn-getstarted
+  {
     order: 2;
     margin: 0 10px 0 0;
     padding: 6px 15px;
   }
 
-  .header .navmenu {
+  .header .navmenu
+  {
     order: 3;
   }
 }
 
 /* ================= NAVIGATION DESKTOP ================= */
 
-@media (min-width: 1200px) {
-  .navmenu ul {
+@media (min-width: 1200px)
+{
+  .navmenu ul
+  {
     display: flex;
     list-style: none;
     align-items: center;
@@ -124,7 +141,8 @@
     position: relative;
   }
 
-  .navmenu a {
+  .navmenu a
+  {
     color: var(--blancCassé);
     padding: 18px 15px;
     font-size: 16px;
@@ -136,12 +154,14 @@
   }
 
   .navmenu a:hover,
-  .navmenu .active {
+  .navmenu .active
+  {
     color: #0d6efd;
   }
 
   /* Dropdown */
-  .navmenu .dropdown ul {
+  .navmenu .dropdown ul
+  {
     position: absolute;
     top: 130%;
     left: 14px;
@@ -155,37 +175,44 @@
     z-index: 99;
   }
 
-  .navmenu .dropdown:hover > ul {
+  .navmenu .dropdown:hover > ul
+  {
     opacity: 1;
     visibility: visible;
     top: 100%;
   }
 
-  .navmenu .dropdown ul li {
+  .navmenu .dropdown ul li
+  {
     min-width: 200px;
   }
 
-  .navmenu .dropdown ul a {
+  .navmenu .dropdown ul a
+  {
     padding: 10px 20px;
     font-size: 15px;
     color: #212529;
   }
 
-  .navmenu .dropdown ul a:hover {
+  .navmenu .dropdown ul a:hover
+  {
     color: #0d6efd;
   }
 }
 
 /* ================= NAVIGATION MOBILE ================= */
 
-@media (max-width: 1199px) {
-  .mobile-nav-toggle {
+@media (max-width: 1199px)
+{
+  .mobile-nav-toggle
+  {
     font-size: 28px;
     cursor: pointer;
     color: #212529;
   }
 
-  .navmenu ul {
+  .navmenu ul
+  {
     display: none;
     position: absolute;
     inset: 60px 20px 20px 20px;
@@ -196,7 +223,8 @@
     z-index: 9998;
   }
 
-  .navmenu a {
+  .navmenu a
+  {
     padding: 10px 20px;
     font-size: 17px;
     font-weight: 500;
@@ -205,28 +233,33 @@
     justify-content: space-between;
   }
 
-  .navmenu .dropdown ul {
+  .navmenu .dropdown ul
+  {
     display: none;
     margin: 10px 20px;
     padding: 10px 0;
     background: #f8f9fa;
   }
 
-  .navmenu .dropdown-active {
+  .navmenu .dropdown-active
+  {
     display: block;
   }
 
-  .mobile-nav-active {
+  .mobile-nav-active
+  {
     overflow: hidden;
   }
 
-  .mobile-nav-active .navmenu {
+  .mobile-nav-active .navmenu
+  {
     position: fixed;
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
   }
 
-  .mobile-nav-active .navmenu > ul {
+  .mobile-nav-active .navmenu > ul
+  {
     display: block;
   }
 }

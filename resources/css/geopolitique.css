@@ -11,7 +11,29 @@
 
 body
 {
-	background-color: var(--bleuIndigo);
+	min-height: 100vh;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 3rem;
+    color: var(--bleuFoncé);
+}
+
+p
+{
+    font-size: 1.8rem;
+    color: var(--bleuFoncé);
+}
+
+.geopolitique-content
+{
+    padding: 200px 0;
 }
 
 

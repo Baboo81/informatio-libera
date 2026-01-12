@@ -1,8 +1,13 @@
 <x-app-layout>
     <section class="geopolitique-content">
         <div class="container">
+            <div class="row">
+                <h2 class="text-center"> {{ $geopolitiqueData['main_title'] ?? '' }} </h2>
+                <article class="col-12 text-center">
+                    <p> {{ $geopolitiqueData['intro'] ?? '' }} </p>
+                </article>
+            </div>
             <div class="row justify-content-center">
-                <h2 class="text-center"></h2>
                 <div class="col-12">
                     @foreach ($themesData as $card)
                         <x-card :title="$card['title']" :sub-title="$card['sub_title'] ?? null" :image="$card['image']" :icon="$card['icon'] ?? null">
