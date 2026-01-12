@@ -238,4 +238,34 @@ Il est l'auteur de plusieurs livres: 666, 777, 888, Enquête sur les anges gardi
             ],
         ],
     ],
+    'sante' => [
+        [
+            // Card : I. Aberkane
+            'title' => "Idriss Aberkane",
+            'sub_title' => "Écrivain, Ph.D",
+            'image' => "assets/img/geopolitique/IdrissAberkane.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Idriss.A possède trois doctorats dans les domaines suivants : Littérature Comparée, Diplomatie & Relations Internationales ainsi que les Neurosciences. Pour visiter son site personnel, cliquez sur le bouton ci-dessous :",
+                    'links' => [
+                        [
+                            'url' => "https://idrissaberkane.org/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+                [
+                    'content' => "Idriss.A s'intéresse à une multitude de sujets autres que la géopolitique tels que les sciences, l'économie, l'I.A… Il développe ces thématiques avec beaucoup de rigueur et de neutralité. Idriss.A a créé Scanderia, un site axé sur l'apprentissage de divers sujets : économie, géopolitique, etc. Vous pourrez trouver dans la section livres du site quelques références.",
+                    'links' => [
+                        [
+                            'url' => "https://www.scanderia.com/",
+                            'label' => "Découvrir Scanderia",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];

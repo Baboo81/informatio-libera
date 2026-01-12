@@ -17,8 +17,7 @@
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li><a href="{{ route('geopolitique') }}">Géopolitique</a></li>
-                        <li><a href="#">Économie</a></li>
-                        <li><a href="#">Santé</a></li>
+                        <li><a href="{{ route('sante') }}">Santé</a></li>
                         <li><a href="{{ route('actualite') }}">Actualité</a></li>
                         <li><a href="#">Souveraineté</a></li>
                         <li><a href="#">Psychologie</a></li>
