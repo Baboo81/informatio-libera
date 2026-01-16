@@ -5,6 +5,7 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\GeopolitiqueController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PsychoController;
 use App\Http\Controllers\SanteController;
 use App\Http\Controllers\SouveraineteController;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +19,7 @@ Route::get('geopolitique', [GeopolitiqueController::class, 'show'])->name('geopo
 Route::get('actualite', [ActualiteController::class, 'show'])->name('actualite');
 Route::get('sante', [SanteController::class, 'show'])->name('sante');
 Route::get('souverainete', [SouveraineteController::class, 'show'])->name('souverainete');
+Route::get('psycho', [PsychoController::class, 'show'])->name('psycho');
 
 
 

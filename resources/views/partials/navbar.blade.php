@@ -20,7 +20,7 @@
                         <li><a href="{{ route('sante') }}">Santé</a></li>
                         <li><a href="{{ route('actualite') }}">Actualité</a></li>
                         <li><a href="{{ route('souverainete') }}">Souveraineté</a></li>
-                        <li><a href="#">Psychologie</a></li>
+                        <li><a href="{{ route('psycho') }}">Psychologie</a></li>
                     </ul>
                 </li>
                 <li><a href="#contact">Livres</a></li>

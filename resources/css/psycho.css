@@ -1,0 +1,79 @@
+:root
+{
+    --blanc : #fff;
+    --bleuNuit : #0D1B2A;
+    --bleuIndigo : #1B263B;
+    --bleuPétrole : #415A77;
+    --bleuCiel : #778DA9;
+    --bleuFoncé : #4169e1;
+    --blancCassé : #E0E1DD;
+}
+
+body
+{
+	min-height: 100vh;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 3rem;
+    color: var(--bleuFoncé);
+}
+
+h6
+{
+    color: var(--blancCassé) !important;
+}
+
+p.lead
+{
+    font-size: 2rem;
+    color: var(--bleuFoncé);
+}
+
+/*******************/
+/*  main-content  */
+/******************/
+
+.geopolitique-content
+{
+    padding: 200px 0;
+}
+
+/* Guillemets */
+
+.quote
+{
+    position: relative;
+    text-align: center;
+}
+
+.quote-open,
+.quote-close {
+    position: absolute;
+    width: 40px;
+}
+
+.quote-open {
+    top: 30%;
+    left: -5%;
+}
+
+.quote-close {
+    bottom: 35%;
+    right: -5%;
+}
+/* Guillemets END*/
+
+.block-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
