@@ -237,6 +237,27 @@ Il est l'auteur de plusieurs livres: 666, 777, 888, Enquête sur les anges gardi
                 ],
             ],
         ],
+        [
+            // Card : S.Despot
+            'title' => "Slobodan Despot",
+            'sub_title' => "Rédacteur de l'anti-presse, conseiller en communication, romancier, ...",
+            'image' => "assets/img/actualite/slobodanDespot.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Slobodan Despot n’est pas un pseudonyme ! D’origine suisse et serbo-croate, il a grandi au milieu des livres et a fait du monde de l’édition sa vie. Traducteur, directeur de collections puis directeur adjoint aux éditions L’Âge d’Homme, il cofonde en 2006 les éditions Xenia, qu’il dirige avec passion.
+
+Au fil de ses nombreuses vies parallèles, Slobodan Despot a été photographe, directeur de magazines, porte-parole de Franz Weber, conseiller en communication, parolier, et surtout romancier, avec des œuvres telles que Le Miel et Le Rayon bleu publiées aux éditions Gallimard. Son parcours témoigne d’une curiosité insatiable et d’un engagement profond pour la culture et la littérature.",
+                    'links' => [
+                        [
+                            'url' => "https://antipresse.net/a-propos/lequipe/",
+                            'label' => "L'Anti-Presse",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     'sante' => [
         [
