@@ -435,4 +435,35 @@ Robin des Toits invite chacun à questionner l’impact des ondes électromagné
             ],
         ],
     ],
+    'psycho' => [
+        [
+            // Card : A.Bilheran
+            'title' => "Ariane Bilheran",
+            'sub_title' => "Normalienne, philosophe, psychologue clinicienne & Dr en psychopathologie",
+            'image' => "assets/img/psycho/arianeBilheran.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Ariane est l'auteur de plusieurs livres, dont les références seront reprisent sur la page livres.
+Ariane anime des conférences, elle est experte en psychopathologie du pouvoir. Ariane décrit avec beaucoup de précision les mécanismes du totalitarisme, son livre intitulé: 'psychopathologie du totalitarisme est une merveille à lire'.Ariane a écrit d'autres livres que je vous recommande aussi, tel que : La manipulation ; entre pouvoir & perversion, et bien d'autres encore",
+                    'links' => [
+                        [
+                            'url' => "https://www.arianebilheran.com/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+                [
+                    'content' => "Vous trouverez d'autres livres en suggestion sur la page livres",
+                    'links' => [
+                        [
+                            'url' => "https://x.com/arianebilheran?lang=fr",
+                            'label' => "X",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ]
 ];
