@@ -258,6 +258,25 @@ Au fil de ses nombreuses vies parallèles, Slobodan Despot a été photographe, 
                 ],
             ],
         ],
+        [
+            // Card : P.Jaulent
+            'title' => "Patrick Jaulent",
+            'sub_title' => "Expert en cyber-sécurité et Dr en élèctronique",
+            'image' => "assets/img/actualite/patrickJaulent.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Patrick Jaulent est un docteur en électronique diplômé d’une université américaine, notamment de Stanford, et une personnalité polyvalente qui conjugue expertise technique, réflexion stratégique et écriture. Il est reconnu comme consultant, enseignant, conférencier international et auteur de plusieurs ouvrages, civils comme fictionnels, qui explorent des thèmes variés allant de la cybersécurité à la performance en entreprise, en passant par des récits littéraires (Je suis mort hier, Deux tigres sur la même colline).",
+                    'links' => [
+                        [
+                            'url' => "https://objectifperformance.decideo.fr/",
+                            'label' => "Le Blog de Patrick.J",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     'sante' => [
         [

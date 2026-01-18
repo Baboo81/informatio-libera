@@ -8,7 +8,6 @@
 - Karl Zéro
 - Guy de La Fortelle
 - Dominique Belpomme
-- Patrick Jaulent
 - Jacqueline Roche
 - Jean-Pierre Petit
 - Xavier Azalbert
