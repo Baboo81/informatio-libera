@@ -13,7 +13,6 @@
 - Xavier Azalbert
 - Philippe Bobola
 - Xavier Cauquil
-- Chantal Rialland
 
 ### 🌐 Sites / Médias
 - L’Agora

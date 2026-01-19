@@ -505,5 +505,25 @@ Ariane anime des conférences, elle est experte en psychopathologie du pouvoir. 
                 ],
             ],
         ],
+        [
+            // Card : C.Rialland
+            'title' => "Chantal Rialland",
+            'sub_title' => "Psychologue diplômée en Sciences Humaines Cliniques",
+            'image' => "assets/img/psycho/chantalRialland.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Chantal Rialland est psychologue clinicienne, psychothérapeute et psychogénéalogiste diplômée en Sciences Humaines Cliniques de l’Université Paris VII – La Sorbonne, exerçant depuis plus de trente ans dans l’accompagnement des individus vers une meilleure compréhension d’eux‑mêmes et de leurs histoires familiales.
+Pionnière dans le domaine de la psychogénéalogie, elle est notamment l’une des auteurs du best‑seller Cette famille qui vit en nous, un ouvrage qui explore l’influence profonde des transmissions familiales sur la vie personnelle et relationnelle.Vous trouverez les livres de cet auteur dans la section : livre du site",
+                    'links' => [
+                        [
+                            'url' => "https://chantalrialland.com/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ]
 ];
