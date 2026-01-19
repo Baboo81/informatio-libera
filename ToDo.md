@@ -11,7 +11,6 @@
 - Jacqueline Roche
 - Jean-Pierre Petit
 - Xavier Azalbert
-- Philippe Bobola
 - Xavier Cauquil
 
 ### 🌐 Sites / Médias

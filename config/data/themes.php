@@ -525,5 +525,37 @@ Pionnière dans le domaine de la psychogénéalogie, elle est notamment l’une 
                 ],
             ],
         ],
-    ]
+    ],
+    'sciences' => [
+        [
+            // Card : P.Bobola
+            'title' => "Philippe Bobola",
+            'sub_title' => "Dr en physique, biologiste, anthropologue, conférencier, auteur, ...",
+            'image' => "assets/img/sciences/philipeBobola.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Le Dr Philippe Bobola est un scientifique pluridisciplinaire reconnu, spécialiste en physique, biologie et anthropologie, dont le parcours allie sciences « dures » et réflexions plus larges sur l’être humain, la conscience et l’évolution sociétale.
+Titulaire d’un doctorat en chimie physique et d’un diplôme de biologiste (3e cycle), il a également approfondi l’anthropologie et s’est formé à la psychanalyse adlérienne, ce qui lui permet d’aborder ses sujets avec une perspective à la fois scientifique et humaine.
+Membre de plusieurs académies scientifiques internationales — notamment l’American Association for the Advancement of Science (AAAS), l’American Chemical Society, l’Académie Européenne des Sciences, Arts et Lettres et l’Académie des Sciences de Lausanne — Philippe Bobola a enseigné dans des institutions prestigieuses et dirigé une équipe de biophysique au Laboratoire de Bio‑informatique et Biotechnologie.",
+                    'links' => [
+                        [
+                            'url' => "https://www.unitedusavoir.com/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+                [
+                    'content' => "Vous trouverez des livres en suggestion sur la page livres",
+                    'links' => [
+                        [
+                            'url' => "https://www.linkedin.com/in/philippe-bobola-01959451/",
+                            'label' => "LinkedIn",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ],
 ];
