@@ -22,7 +22,6 @@
 
 ### 📡 Réseaux / Plateformes
 - CrowdBunker
-- Solidaritas
 - Solaris
 - Le Média 4-4-2
 

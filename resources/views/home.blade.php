@@ -29,22 +29,32 @@
     <section class="main-content">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <h2 class="text-center p-5 my-5">{{ $homeData['main_content']['main_title1'] ?? '' }}</h2>
-                <div class="col-8">
+                <div class="col-12 col-box">
                     <section class="black-box">
-                        <article class="quote">
-                            <div class="text-start">
-                                <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}"
-                                    alt="picto représentant des guillemets" class="quote-open">
+                        <h2 class="text-center my-5">
+                            {{ $homeData['main_content']['main_title1'] ?? '' }}
+                        </h2>
+
+                        <!-- Conteneur flex pour logo et texte -->
+                        <div class="row">
+                            <!-- Logo à gauche -->
+                            <div class="col-md-4 d-flex justify-content-center justify-content-md-start logo-container">
+                                <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}"
+                                    alt="Logo du site représentant une ampoule avec un personnage à l'intérieur"
+                                    class="main-logo">
                             </div>
-                            <p class="text-center">
-                                {{ $homeData['main_content']['content'] ?? '' }}
-                            </p>
-                            <div class="text-end">
-                                <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}"
-                                    alt="picto représentant des guillemets" class="quote-close">
+
+                            <div class="col-md-8">
+                                <!-- Texte avec guillemets à droite -->
+                                <article class="quote d-flex align-items-start">
+                                    <p class="quote-text text-center">
+                                        {{ $homeData['main_content']['content'] ?? '' }}
+                                    </p>
+                                </article>
                             </div>
-                        </article>
+                        </div>
+                        <!-- fin flex container -->
+
                     </section>
                 </div>
             </div>

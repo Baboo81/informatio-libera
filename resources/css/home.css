@@ -40,14 +40,31 @@ h1
 
 h2
 {
-    font-size: 2rem;
-    color: var(--bleuFoncé);
+     font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    /* Gradient blanc marbré */
+    background: linear-gradient(
+        135deg,
+        #f0f0f0,    /* blanc très clair */
+        #e0e0e0,    /* blanc cassé */
+        #f8f8f8     /* nuance brillante */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Ombres pour effet 3D subtil */
+    text-shadow:
+        1px 1px 0 rgba(0,0,0,0.15),
+        3px 3px 5px rgba(0,0,0,0.25);
 }
 
 p
 {
     font-size: 1.5rem;
-    color: var(--bleuFoncé);
+    color: var(--blancCassé);
 }
 
 /************/
@@ -178,42 +195,88 @@ p
 /*******************/
 /*  main-content  */
 /******************/
-
-article
+.col-box
 {
     padding: 300px 0;
 }
 
-.quote
+article
 {
-    position: relative;
-    text-align: center;
+    padding: 50px 0;
 }
 
 .black-box
 {
-    background-color: var(--bleuNuit);
-    border-radius: 50px;
+    background-color: var(--blancCassé);
     opacity: 70%;
     width: auto;
-    padding: 0px 150px;
+    padding: 100px 70px;
+    background: rgba(224, 225, 221, 0.15); /* léger fond blanc translucide */
+    border-radius: 50px;
+    padding: 100px 70px;
+    backdrop-filter: blur(10px); /* flou derrière */
+    -webkit-backdrop-filter: blur(10px); /* support Safari */
+    border: 1px solid rgba(224, 225, 221, 0.3); /* fine bordure lumineuse */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* ombre douce */
+}
+
+/* Container flex logo + texte */
+.logo-container {
+    flex: 0 0 auto; /* taille du logo fixe */
+}
+
+.main-logo {
+    width: 550px; /* ajuste selon ton design */
+    height: auto;
+}
+
+/* Quote texte déjà flex */
+.quote
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 1 auto; /* prend le reste de l'espace */
+    position: relative;
 }
 
 /* Guillemets */
 .quote-open,
 .quote-close {
-    position: absolute;
     width: 40px;
+    height: auto;
 }
 
-.quote-open {
-    top: 30%;
-    left: -5%;
+.quote-open { align-self: flex-start; }
+.quote-close { align-self: flex-end; }
+
+/* Texte */
+.quote-text {
+    flex: 1;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: justify;
+    padding: 20px;
 }
 
-.quote-close {
-    bottom: 35%;
-    right: -5%;
+/* Responsive */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-logo { width: 120px; margin-bottom: 20px; }
+    .quote-text { padding: 15px; }
+    .quote-open,
+    .quote-close { width: 30px; margin: 10px 0; }
+}
+
+/* Espace supplémentaire entre banner et box */
+.main-content .black-box {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 /* Guillemets END*/
 
