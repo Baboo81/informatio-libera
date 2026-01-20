@@ -12,6 +12,7 @@
 - Jean-Pierre Petit
 - Xavier Azalbert
 - Xavier Cauquil
+- Chloé Frameri
 
 ### 🌐 Sites / Médias
 - L’Agora
