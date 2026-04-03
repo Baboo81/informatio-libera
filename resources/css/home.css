@@ -20,6 +20,9 @@
     --bleuCiel : #778DA9;
     --bleuFoncé : #4169e1;
     --blancCassé : #E0E1DD;
+    --accentCorail : #FF6B6B;
+    --accentSauge : #7FB069;
+    --accentGold : #D4AF37;
 }
 
 html, body
@@ -40,31 +43,17 @@ h1
 
 h2
 {
-     font-size: clamp(2rem, 5vw, 3rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 900;
     text-align: center;
     margin-bottom: 2rem;
-
-    /* Gradient blanc marbré */
-    background: linear-gradient(
-        135deg,
-        #f0f0f0,    /* blanc très clair */
-        #e0e0e0,    /* blanc cassé */
-        #f8f8f8     /* nuance brillante */
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    /* Ombres pour effet 3D subtil */
-    text-shadow:
-        1px 1px 0 rgba(0,0,0,0.15),
-        3px 3px 5px rgba(0,0,0,0.25);
+    color: var(--bleuFoncé) !important;
 }
 
 p
 {
     font-size: 1.5rem;
-    color: var(--blancCassé);
+    color: #FFFFFF;
 }
 
 /************/
@@ -167,7 +156,7 @@ p
 
 .banner-icon
 {
-    color: var(--bleuFoncé);
+    color: var(--accentGold);
     font-size: 1.1rem;
     flex-shrink: 0;
     animation: glow 2.5s infinite ease-in-out;

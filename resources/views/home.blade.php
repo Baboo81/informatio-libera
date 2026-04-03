@@ -65,7 +65,8 @@
     {{-- Section : comments --}}
     <section id="comments"class="comments">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
+            <div class="black-box">
+                <div class="row d-flex justify-content-center align-items-center">
                 <h2 class="text-center">{{ $homeData['main_content']['main_title2'] ?? '' }}</h2>
                 <div class="col-12 comments-box">
                     @forelse ($comments as $comment)
@@ -116,6 +117,7 @@
                         </div>
                     @endauth
                 </div>
+            </div>
             </div>
         </div>
     </section>
