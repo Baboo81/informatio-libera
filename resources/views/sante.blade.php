@@ -3,13 +3,13 @@
         <div class="container">
             <div class="black-box">
                 <div class="row justify-content-center">
-                <h2 class="text-center"> {{ $santeData['main_title'] ?? '' }} </h2>
-                <article class="col-lg-8 col-md-10 col-12 text-center quote">
-                    <p class="lead fst-italic">
-                        {{ $santeData['intro'] ?? '' }}
-                    </p>
-                </article>
-            </div>
+                    <h2 class="text-center"> {{ $santeData['main_title'] ?? '' }} </h2>
+                    <article class="col-lg-8 col-md-10 col-12 text-center quote">
+                        <p class="lead fst-italic">
+                            {{ $santeData['intro'] ?? '' }}
+                        </p>
+                    </article>
+                </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12 block-card">

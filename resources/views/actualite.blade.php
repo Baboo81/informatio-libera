@@ -1,21 +1,15 @@
 <x-app-layout>
     <section class="geopolitique-content">
         <div class="container">
-            <div class="row justify-content-center">
-                <h2 class="text-center"> {{ $actuliteData['main_title'] ?? '' }} </h2>
-                <article class="col-lg-8 col-md-10 col-12 text-center quote">
-                    <div class="text-start">
-                        <img src="{{ asset('assets/img/svg/guillemetsO.svg') }}" alt="picto représentant des guillemets"
-                            class="quote-open">
-                    </div>
-                    <p class="lead fst-italic">
-                        {{ $actualiteData['intro'] ?? '' }}
-                    </p>
-                    <div class="text-end">
-                        <img src="{{ asset('assets/img/svg/guillemetsF.svg') }}" alt="picto représentant des guillemets"
-                            class="quote-close">
-                    </div>
-                </article>
+            <div class="black-box">
+                <div class="row justify-content-center">
+                    <h2 class="text-center"> {{ $actualiteData['main_title'] ?? '' }} </h2>
+                    <article class="col-lg-8 col-md-10 col-12 text-center quote">
+                        <p class="lead fst-italic">
+                            {{ $actualiteData['intro'] ?? '' }}
+                        </p>
+                    </article>
+                </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-12 block-card">
