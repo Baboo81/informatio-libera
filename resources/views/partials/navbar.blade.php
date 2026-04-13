@@ -11,8 +11,6 @@
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="{{ route('home') }}" class="active">Accueil</a></li>
-                <li><a href="#">Qui suis-je ?</a></li>
-                <li><a href="#">Contact</a></li>
                 <li class="dropdown"><a href="#"><span>Catégories</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>

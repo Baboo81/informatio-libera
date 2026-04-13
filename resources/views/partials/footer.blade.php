@@ -1,4 +1,4 @@
-<footer class="bg-light border-top mt-5 py-3">
+<footer class="mt-5 py-3">
     <div class="container">
         <div class="d-flex justify-content-between align-items-center flex-wrap">
             {{-- Logo --}}
@@ -15,7 +15,7 @@
             </div>
             {{-- Dev --}}
             <div class="text-muted small">
-                &copy; {{ date('y') }} - Développé par
+                &copy; {{ date('Y') }} - Développé par
                 <a href="https://kenko-web.be" target="_blank" class="text-decoration-none text-dark fw-semibold">
                     Kenko-web
                 </a>
