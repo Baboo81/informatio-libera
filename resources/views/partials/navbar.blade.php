@@ -52,7 +52,7 @@
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a class="btn" href="#about">Commencer</a>
+        <a class="btn" href="#contact">Contactez-moi</a>
 
     </div>
 </header>

@@ -1,4 +1,4 @@
-<footer class="mt-5 py-3">
+<footer class="mt-5 py-3" id="contact">
     <div class="container">
         <div class="row d-flex justify-content-center align-items-center my-5">
             {{-- Logo --}}
