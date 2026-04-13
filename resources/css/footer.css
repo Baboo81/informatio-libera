@@ -24,5 +24,34 @@
 
 footer
 {
-    background-color: var(--bleuFoncé);
+    background-color: var(--bleuIndigo);
+    min-height: 300px !important;
+    color: var(--blancCassé) !important;
+    opacity: 80%;
+}
+
+footer a
+{
+    color: var(--bleuFoncé);
+    font-size: 1.8rem;
+}
+
+footer .dev-content
+{
+    padding-top: 150px;
+}
+
+footer .contact-content
+{
+    padding-left: 100px;
+}
+
+.footer-top
+{
+    border-top: 1px solid #f0f3f5;
+}
+
+.footer-right
+{
+    border-right: 1px solid #f0f3f5;
 }

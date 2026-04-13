@@ -1,2 +1,20 @@
-@tailwind components;
-@tailwind utilities;
+/* Importe le CSS global de l’application
+ 👉 styles généraux (reset, layout, tailwind via Breeze, etc.)*/
+@import '../css/app.css';
+
+/* Importe le CSS spécifique à la navbar
+// 👉 styles personnalisés pour la nav
+// 👉 sera compilé par Vite et injecté automatiquement*/
+@import '../css/components/card.css';
+@import '../css/navbar.css';
+@import '../css/footer.css';
+@import '../css/home.css';
+@import '../css/geopolitique.css';
+@import '../css/actualite.css';
+@import '../css/sante.css';
+@import '../css/souverainete.css';
+@import '../css/psycho.css';
+@import '../css/sciences.css';
+
+/* Import CSS FontAwesome*/
+@import '@fortawesome/fontawesome-free/css/all.min.css';
