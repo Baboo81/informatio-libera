@@ -22,7 +22,7 @@
         <div class="row dev-content">
             {{-- Dev --}}
             <div class="footer-top text-center">
-                <div class="col-12 small my-5">
+                <div class="col-12 small my-3">
                     <p>&copy; {{ date('Y') }} - Développé par : </p>
                     <a href="https://kenko-web.be" target="_blank" class="text-decoration-none">
                         Kenko-web
