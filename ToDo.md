@@ -24,5 +24,5 @@
 ### 📡 Réseaux / Plateformes
 - CrowdBunker
 - Solaris
-- Le Média 4-4-2
+
 

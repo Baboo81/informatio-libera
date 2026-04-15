@@ -277,10 +277,29 @@ Au fil de ses nombreuses vies parallèles, Slobodan Despot a été photographe, 
                 ],
             ],
         ],
+        [
+            // Card : P.Jaulent
+            'title' => "Le Média en 4-4-2",
+            'sub_title' => "Média français d'information",
+            'image' => "assets/img/actualite/media442.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Le média 4-4-2 s’impose aujourd’hui comme une voix alternative dans le paysage de l’information. À contre-courant des discours dominants, il propose une lecture différente de l’actualité, en mettant en lumière des sujets souvent ignorés ou peu traités par les médias traditionnels. Avec un ton libre et engagé, 4-4-2 explore des thématiques variées : société, politique, culture ou encore géopolitique. Son objectif est clair : offrir aux lecteurs des clés de compréhension supplémentaires et encourager un regard critique sur l’information. Accessible et sans filtre, ce média s’adresse à celles et ceux qui souhaitent sortir des sentiers battus et se forger leur propre opinion. 4-4-2 invite ainsi à une démarche de ré-information, où la curiosité et l’esprit d’analyse occupent une place centrale.",
+                    'links' => [
+                        [
+                            'url' => "https://lemediaen442.fr/",
+                            'label' => "Le Média en 4-4-2",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
     'sante' => [
         [
-            // Card : I. Aberkane
+            // Card : E. Krusi
             'title' => "Ema Krusi",
             'sub_title' => "Phsycopraticienne & formatrice",
             'image' => "assets/img/sante/emaKrusi.jpg",

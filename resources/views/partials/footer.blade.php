@@ -14,7 +14,7 @@
             <div class="col-md-8 col-12 mb-2 mb-md-0 contact-content">
                 <a href="mailto:magicbaboo@gmail.com" class="text-decoration-none">
                     <i class="bi bi-envelope me-3">
-                        Pour me contacter, ciquez sur l'enveloppe
+                        Pour me contacter, cliquez sur l'enveloppe
                     </i>
                 </a>
             </div>
