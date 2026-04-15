@@ -82,7 +82,8 @@
 .navmenu .dropdown ul
 {
     display: block;          /* assure que les éléments sont empilés */
-    flex-direction: column;  /* utile si jamais parent flex */
+    flex-direction: column;
+    border-radius: 18px !important;  /* utile si jamais parent flex */
 }
 
 .navmenu .dropdown ul li
