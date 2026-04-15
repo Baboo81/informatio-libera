@@ -91,6 +91,17 @@
     display: block;          /* assure qu’ils s’empilent verticalement */
 }
 
+.dropdown-divider
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-header
+{
+    color: var(--bleuFoncé) !important;
+    font-weight: bold;
+}
+
 /* ================= HEADER RESPONSIVE ================= */
 
 @media (max-width: 1200px)

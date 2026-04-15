@@ -20,6 +20,18 @@
                         <li><a href="{{ route('souverainete') }}">Souveraineté</a></li>
                         <li><a href="{{ route('psycho') }}">Psychologie</a></li>
                         <li><a href="{{ route('sciences') }}">Sciences</a></li>
+
+                        {{-- Séparateur --}}
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li><h6 class="dropdown-header text-center mt-3">Entraide</h6></li>
+                        <li><a href="#">Réseaux d'entreaide</a></li>
+
+                        {{-- Séparateur --}}
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li><h6 class="dropdown-header text-center mt-3">Communautés libres</h6></li>
+                        <li><a href="#">Plateformes de diffusion</a></li>
                     </ul>
                 </li>
                 <li><a href="#contact">Livres</a></li>
