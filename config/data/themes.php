@@ -582,27 +582,35 @@ Membre de plusieurs académies scientifiques internationales — notamment l’A
             // Card : Réseau d'entraide : Solaris
             'title' => "Réseau d'entraide Solaris",
             'sub_title' => "Pour retrouver son autonomie, créer des liens humains et bien plus ...",
-            'image' => "assets/img/sciences/philipeBobola.jpg",
+            'image' => "assets/img/entraide/solaris.jpg",
             'icon' => "fas fa-disease",
 
             'blocks' => [
                 [
-                    'content' => "Le Dr Philippe Bobola est un scientifique pluridisciplinaire reconnu, spécialiste en physique, biologie et anthropologie, dont le parcours allie sciences « dures » et réflexions plus larges sur l’être humain, la conscience et l’évolution sociétale.
-Titulaire d’un doctorat en chimie physique et d’un diplôme de biologiste (3e cycle), il a également approfondi l’anthropologie et s’est formé à la psychanalyse adlérienne, ce qui lui permet d’aborder ses sujets avec une perspective à la fois scientifique et humaine.
-Membre de plusieurs académies scientifiques internationales — notamment l’American Association for the Advancement of Science (AAAS), l’American Chemical Society, l’Académie Européenne des Sciences, Arts et Lettres et l’Académie des Sciences de Lausanne — Philippe Bobola a enseigné dans des institutions prestigieuses et dirigé une équipe de biophysique au Laboratoire de Bio‑informatique et Biotechnologie.",
+                    'content' => "Le réseau Solaris se présente comme un réseau d’entraide et de solidarité profondément ancré dans le réel, souvent décrit comme un « Internet humain ». Son principe est simple : recréer du lien là où il s’est fragilisé, en partant de ce qu’il y a de plus proche — le voisinage.Concrètement, Solaris repose sur un maillage de petites cellules locales, composées de personnes qui mettent à disposition leurs compétences, leurs ressources ou leur temps. Chaque membre peut ainsi contribuer selon ses capacités, tout en sachant qu’il pourra, à son tour, recevoir de l’aide en cas de besoin. Ce fonctionnement, sans hiérarchie centrale, favorise une organisation souple, autonome et réactive, capable de répondre rapidement aux besoins du quotidien.L’un des fondements du réseau réside dans une logique de solidarité non marchande : il ne s’agit ni de troc, ni d’échange direct, mais d’un engagement collectif basé sur la confiance. L’idée est que ce que l’on donne à un moment donné circule au sein du réseau et revient autrement, par d’autres personnes, lorsque cela devient nécessaire. Solaris met également l’accent sur la résilience locale. En favorisant la transmission des savoirs, la mise en relation des compétences et l’organisation de moyens de communication alternatifs, le réseau cherche à permettre aux communautés de rester connectées et solidaires, y compris en cas de difficultés ou de rupture des systèmes traditionnels.",
                     'links' => [
                         [
-                            'url' => "https://www.unitedusavoir.com/",
+                            'url' => "https://solaris-france.org/",
                             'label' => "Site officiel",
                         ],
                     ],
                 ],
+            ],
+        ],
+        [
+            // Card : Réseau d'entraide : La Ruche qui dit oui
+            'title' => "La Ruche Qui Dit Oui",
+            'sub_title' => "Achetez local et bio, directement de l'agriculteur",
+            'image' => "assets/img/entraide/rucheQuiDitOui.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
                 [
-                    'content' => "Vous trouverez des livres en suggestion sur la page livres",
+                    'content' => "La Ruche qui dit Oui ! est une initiative qui réinvente la manière de consommer en recréant du lien direct entre producteurs locaux et citoyens. À mi-chemin entre circuit court et réseau d’entraide, elle permet à chacun d’accéder à des produits de qualité tout en soutenant une agriculture plus humaine et locale. Le principe est simple : chaque “ruche” est un point de rencontre local où des consommateurs commandent en ligne des produits directement auprès de producteurs de leur région. Une fois par semaine ou selon le rythme défini, les membres se retrouvent pour récupérer leurs commandes, dans un moment qui favorise aussi les échanges et les rencontres. Au-delà de l’aspect alimentaire, la Ruche qui dit Oui ! participe à recréer une dynamique collective. Elle valorise le travail des producteurs, encourage une consommation plus consciente et redonne du sens à l’acte d’achat. Chacun devient ainsi acteur d’un système plus juste, plus transparent et plus ancré dans son territoire. En rejoignant une ruche, on ne fait pas que remplir son panier : on participe à un réseau local vivant, où la confiance, la proximité et le soutien mutuel reprennent toute leur place.",
                     'links' => [
                         [
-                            'url' => "https://www.linkedin.com/in/philippe-bobola-01959451/",
-                            'label' => "LinkedIn",
+                            'url' => "https://www.auderghem.be/les-ruches-auderghem",
+                            'label' => "Site officiel",
                         ],
                     ],
                 ],
