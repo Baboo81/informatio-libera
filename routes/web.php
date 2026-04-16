@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\EntraideController;
 use App\Http\Controllers\GeopolitiqueController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
@@ -22,6 +23,7 @@ Route::get('sante', [SanteController::class, 'show'])->name('sante');
 Route::get('souverainete', [SouveraineteController::class, 'show'])->name('souverainete');
 Route::get('psycho', [PsychoController::class, 'show'])->name('psycho');
 Route::get('sciences', [SciencesController::class, 'show'])->name('sciences');
+Route::get('entraide', [EntraideController::class, 'show'])->name('entraide');
 
 
 

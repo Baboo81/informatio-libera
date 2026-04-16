@@ -25,7 +25,7 @@
                         <li><hr class="dropdown-divider"></li>
 
                         <li><h6 class="dropdown-header text-center mt-3">Entraide</h6></li>
-                        <li><a href="#">Réseaux d'entreaide</a></li>
+                        <li><a href="{{ route('entraide') }}">Réseaux d'entreaide</a></li>
 
                         {{-- Séparateur --}}
                         <li><hr class="dropdown-divider"></li>
