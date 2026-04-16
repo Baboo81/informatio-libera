@@ -616,5 +616,24 @@ Membre de plusieurs académies scientifiques internationales — notamment l’A
                 ],
             ],
         ],
+        [
+            // Card : Réseau d'entraide : Le réseau de transition Belgique
+            'title' => "Le Réseau de Transition Belge",
+            'sub_title' => "Vous cherchez des solutions de transition vers un mode de vie plus sain et collaboratif ?",
+            'image' => "assets/img/entraide/reseauTransition.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Le Réseau Transition Belgique s’inscrit dans un mouvement citoyen international qui encourage les communautés locales à devenir plus résilientes, autonomes et solidaires face aux défis actuels. Son approche repose sur une idée simple mais puissante : les solutions les plus durables naissent souvent à l’échelle locale, grâce à l’engagement collectif. À travers toute la Belgique, des initiatives de transition voient le jour dans des quartiers, des villages ou des villes. Ces groupes rassemblent des citoyens qui souhaitent agir concrètement, en développant des projets autour de l’alimentation, de l’énergie, de la mobilité ou encore du lien social. Jardins partagés, monnaies locales, ateliers collaboratifs… autant d’actions qui renforcent l’entraide et redonnent du pouvoir d’agir à chacun. Le réseau agit comme un facilitateur, en mettant en lien les initiatives, en partageant des რესsources et en soutenant les dynamiques locales. Il ne s’agit pas d’un modèle figé, mais d’un écosystème vivant, où chaque groupe adapte ses actions aux réalités de son territoire.",
+                    'links' => [
+                        [
+                            'url' => "https://www.reseautransition.be/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+            ],
+        ],
     ],
 ];

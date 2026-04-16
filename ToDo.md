@@ -17,13 +17,11 @@
 ### 🌐 Sites / Médias
 - L’Agora
 - BTLV
-- Nuréa TV
 - Les Belges se réveillent
 - Tocsin
 
 ### 📡 Réseaux / Plateformes
 - CrowdBunker
-- Réseau Transition Belgique
 - SEL Belgique
 - GASAP
 
