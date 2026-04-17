@@ -636,4 +636,25 @@ Membre de plusieurs académies scientifiques internationales — notamment l’A
             ],
         ],
     ],
+    'plate_formes_diffusion' => [
+        [
+            // Card : Plateformes de diffusion : Crowdbunker
+            'title' => "Crowdbunker",
+            'sub_title' => "Plateforme de diffusion et de streaming",
+            'image' => "assets/img/entraide/solaris.jpg",
+            'icon' => "fas fa-disease",
+
+            'blocks' => [
+                [
+                    'content' => "Le réseau Solaris se présente comme un réseau d’entraide et de solidarité profondément ancré dans le réel, souvent décrit comme un « Internet humain ». Son principe est simple : recréer du lien là où il s’est fragilisé, en partant de ce qu’il y a de plus proche — le voisinage.Concrètement, Solaris repose sur un maillage de petites cellules locales, composées de personnes qui mettent à disposition leurs compétences, leurs ressources ou leur temps. Chaque membre peut ainsi contribuer selon ses capacités, tout en sachant qu’il pourra, à son tour, recevoir de l’aide en cas de besoin. Ce fonctionnement, sans hiérarchie centrale, favorise une organisation souple, autonome et réactive, capable de répondre rapidement aux besoins du quotidien.L’un des fondements du réseau réside dans une logique de solidarité non marchande : il ne s’agit ni de troc, ni d’échange direct, mais d’un engagement collectif basé sur la confiance. L’idée est que ce que l’on donne à un moment donné circule au sein du réseau et revient autrement, par d’autres personnes, lorsque cela devient nécessaire. Solaris met également l’accent sur la résilience locale. En favorisant la transmission des savoirs, la mise en relation des compétences et l’organisation de moyens de communication alternatifs, le réseau cherche à permettre aux communautés de rester connectées et solidaires, y compris en cas de difficultés ou de rupture des systèmes traditionnels.",
+                    'links' => [
+                        [
+                            'url' => "https://solaris-france.org/",
+                            'label' => "Site officiel",
+                        ],
+                    ],
+                ],
+            ],
+        ],
+    ]
 ];

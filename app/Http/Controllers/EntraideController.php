@@ -10,7 +10,7 @@ class EntraideController extends Controller
     {
         //Récupération des datas des thèmes depuis config/data/themes.php
         $themesData = config('data.themes.entraide');
-        //Récupération des datas de psychologie se trouvant ds config/data/entraide.php
+        //Récupération des datas d'entraide se trouvant ds config/data/entraide.php
         $entraideData = config('data.entraide.page_content');
 
         //On envoie à la vue

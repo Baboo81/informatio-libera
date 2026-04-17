@@ -31,7 +31,7 @@
                         <li><hr class="dropdown-divider"></li>
 
                         <li><h6 class="dropdown-header text-center mt-3">Communautés libres</h6></li>
-                        <li><a href="#">Plateformes de diffusion</a></li>
+                        <li><a href="{{ route('plateFormesDiffusion') }}">Plateformes de diffusion</a></li>
                     </ul>
                 </li>
                 <li><a href="#contact">Livres</a></li>

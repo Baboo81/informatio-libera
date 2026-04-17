@@ -5,6 +5,7 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\EntraideController;
 use App\Http\Controllers\GeopolitiqueController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PlateFormesDiffusionController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PsychoController;
 use App\Http\Controllers\SanteController;
@@ -24,6 +25,7 @@ Route::get('souverainete', [SouveraineteController::class, 'show'])->name('souve
 Route::get('psycho', [PsychoController::class, 'show'])->name('psycho');
 Route::get('sciences', [SciencesController::class, 'show'])->name('sciences');
 Route::get('entraide', [EntraideController::class, 'show'])->name('entraide');
+Route::get('plateFormesDiffusion', [PlateFormesDiffusionController::class, 'show'])->name('plateFormesDiffusion');
 
 
 
