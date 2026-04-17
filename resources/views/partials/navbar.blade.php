@@ -10,35 +10,79 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="{{ route('home') }}" class="active">Accueil</a></li>
+                <li>
+                    <a href="{{ route('home') }}" class="active">
+                        <i class="bi bi-house me-2"></i>Accueil
+                    </a>
+                </li>
                 <li class="dropdown"><a href="#"><span>Catégories</span> <i
                             class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li><a href="{{ route('geopolitique') }}">Géopolitique</a></li>
-                        <li><a href="{{ route('sante') }}">Santé</a></li>
-                        <li><a href="{{ route('actualite') }}">Actualité</a></li>
-                        <li><a href="{{ route('souverainete') }}">Souveraineté</a></li>
-                        <li><a href="{{ route('psycho') }}">Psychologie</a></li>
-                        <li><a href="{{ route('sciences') }}">Sciences</a></li>
+                        <li>
+                            <a href="{{ route('geopolitique') }}">
+                                <i class="bi bi-globe-europe-africa me-2"></i>Géopolitique
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('sante') }}">
+                                <i class="bi bi-heart-pulse me-2"></i>Santé
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('actualite') }}">
+                                <i class="bi bi-newspaper me-2"></i>Actualité
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('souverainete') }}">
+                                <i class="bi bi-bank me-2"></i>Souveraineté
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('psycho') }}">
+                                <i class="bi bi-person-gear me-2"></i>Psychologie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('sciences') }}">
+                                <i class="bi bi-lightbulb me-2"></i>Sciences
+                            </a>
+                        </li>
 
                         {{-- Séparateur --}}
                         <li><hr class="dropdown-divider"></li>
 
                         <li><h6 class="dropdown-header text-center mt-3">Entraide</h6></li>
-                        <li><a href="{{ route('entraide') }}">Réseaux d'entreaide</a></li>
+                        <li>
+                            <a href="{{ route('entraide') }}">
+                                <i class="bi bi-people me-2"></i>Réseaux d'entreaide
+                            </a>
+                        </li>
 
                         {{-- Séparateur --}}
                         <li><hr class="dropdown-divider"></li>
 
                         <li><h6 class="dropdown-header text-center mt-3">Communautés libres</h6></li>
-                        <li><a href="{{ route('plateFormesDiffusion') }}">Plateformes de diffusion</a></li>
+                        <li>
+                            <a href="{{ route('plateFormesDiffusion') }}">
+                                <i class="bi bi-broadcast me-2"></i>Plateformes de diffusion
+                            </a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="#contact">Livres</a></li>
+
                 {{-- Utilisateur non connecté --}}
                 @guest
-                    <li><a href="{{ route('login') }}">Connexion</a></li>
-                    <li><a href="{{ route('register') }}">Inscription</a></li>
+                    <li>
+                        <a href="{{ route('login') }}">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>Connexion
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ route('register') }}">
+                            <i class="bi bi-person-plus me-2"></i>Inscription
+                        </a>
+                    </li>
                 @endguest
                 {{-- Utilisateur connecté --}}
                 @auth
