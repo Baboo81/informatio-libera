@@ -21,7 +21,6 @@
 
 
 ### 📡 Réseaux / Plateformes
-- CrowdBunker
 - SEL Belgique
 - GASAP
 
