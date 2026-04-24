@@ -15,6 +15,7 @@
 @import '../css/souverainete.css';
 @import '../css/psycho.css';
 @import '../css/sciences.css';
+@import '../css/login.css';
 
 /* Import CSS FontAwesome*/
 @import '@fortawesome/fontawesome-free/css/all.min.css';
