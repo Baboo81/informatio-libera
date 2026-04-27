@@ -1,7 +1,5 @@
 /* Importe le CSS global de l’application
  👉 styles généraux (reset, layout, tailwind via Breeze, etc.)*/
-@import '../css/app.css';
-
 /* Importe le CSS spécifique à la navbar
 // 👉 styles personnalisés pour la nav
 // 👉 sera compilé par Vite et injecté automatiquement*/

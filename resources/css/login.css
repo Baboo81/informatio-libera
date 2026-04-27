@@ -25,6 +25,12 @@ h2
     color: var(--bleuFoncé);
 }
 
+h3
+{
+    font-size: 2rem;
+    color: var(--blanc);
+}
+
 p.lead
 {
     font-size: 2rem;
@@ -35,7 +41,7 @@ p.lead
 /*  main-content  */
 /******************/
 
-.actualite-content
+.login-content
 {
     padding: 200px 0;
 }
@@ -48,10 +54,6 @@ p.lead
     align-items: center;
 }
 
-.col-box
-{
-    padding: 300px 0;
-}
 
 .black-box
 {
@@ -66,5 +68,38 @@ p.lead
     -webkit-backdrop-filter: blur(10px); /* support Safari */
     border: 1px solid rgba(224, 225, 221, 0.3); /* fine bordure lumineuse */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); /* ombre douce */
+}
+
+.input-icon-box
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon-box i
+{
+    position: absolute;
+    left: 15px;
+    color: var(--bleuPétrole);
+    font-size: 1.2rem;
+}
+
+.input-custom
+{
+    width: 100%;
+    padding: 12px 15px 12px 45px !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    color: var(--bleuNuit);
+    backdrop-filter: blur(5px);
+}
+
+.input-custom:focus
+{
+    outline: none;
+    border: 1px solid var(--blanc);
+    box-shadow: 0 0 8px rgba(65, 105, 225, 0.4);
 }
 
