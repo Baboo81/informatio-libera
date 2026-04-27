@@ -1,7 +1,7 @@
 <x-guest-layout>
-    <div class="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div class="col-box">
 
-        <div class="w-full max-w-md bg-white shadow-xl rounded-2xl p-8">
+        <div class="col-12 black-box">
 
             <!-- Logo -->
             <div class="flex justify-center mb-6">
@@ -62,7 +62,7 @@
 
                 <!-- Button -->
                 <button type="submit"
-                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg shadow-md transition">
+                    class="btn">
                     Se connecter
                 </button>
             </form>

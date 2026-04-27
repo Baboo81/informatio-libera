@@ -219,48 +219,6 @@ article
     height: auto;
 }
 
-/* Quote texte déjà flex */
-.quote
-{
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    flex: 1 1 auto; /* prend le reste de l'espace */
-    position: relative;
-}
-
-/* Guillemets */
-.quote-open,
-.quote-close {
-    width: 40px;
-    height: auto;
-}
-
-.quote-open { align-self: flex-start; }
-.quote-close { align-self: flex-end; }
-
-/* Texte */
-.quote-text {
-    flex: 1;
-    font-size: 1.5rem;
-    line-height: 1.8;
-    text-align: justify;
-    padding: 20px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .d-flex {
-        flex-direction: column !important;
-        align-items: center;
-        text-align: center;
-    }
-
-    .main-logo { width: 120px; margin-bottom: 20px; }
-    .quote-text { padding: 15px; }
-    .quote-open,
-    .quote-close { width: 30px; margin: 10px 0; }
-}
 
 /* Espace supplémentaire entre banner et box */
 .main-content .black-box {

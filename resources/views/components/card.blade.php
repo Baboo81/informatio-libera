@@ -1,4 +1,4 @@
-<div class="col-12 col-lg-4">
+<div class="">
     <div class="card box-shadow mx-auto my-5" style="width: 43rem; position: relative;">
 
         {{-- Image avec wrapper pour la vague --}}
