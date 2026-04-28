@@ -61,10 +61,20 @@
                             </div>
 
                             <!-- Button -->
-                            <button type="submit" class="btn">
-                                Se connecter
-                            </button>
+                            <div class="my-5">
+                                <button type="submit" class="btn">
+                                    Se connecter
+                                </button>
+                            </div>
                         </form>
+                        <!-- Btn retour vers l'accueil -->
+                        <div class="text-center my-3">
+                            <a href="{{ url('/') }}">
+                                <button class="btn" type="button">
+                                    Retour vers l'accueil
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
