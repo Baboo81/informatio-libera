@@ -33,6 +33,11 @@
   z-index: 997;
 }
 
+.header a
+{
+  text-decoration: none;
+}
+
 .header .header-container
 {
   background: var(--bleuIndigo);
