@@ -36,11 +36,6 @@ html, body
     font-family: 'Dastin';
 }
 
-h1
-{
-    font-size: 3rem;
-}
-
 h2
 {
     font-size: clamp(2rem, 5vw, 3rem);
@@ -52,7 +47,7 @@ h2
 
 p
 {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
     color: #FFFFFF;
 }
 
@@ -168,16 +163,22 @@ p
     50% { opacity: 1; }
 }
 
+.banner .row
+{
+    gap: 2rem;
+}
+
 .box
 {
-    height: 300px;
-    width: 300px;
+    height: clamp(200px, 40vw, 300px);
+    width: clamp(200px, 40vw, 300px);
     background-color: var(--bleuFoncé);
     opacity: 80%;
 }
 
 .bannerTitle
 {
+    font-size: clamp()1.8rem, 5vw, 3rem;
     color: var(--blancCassé);
 }
 
@@ -263,3 +264,17 @@ article
     z-index: 0;
 }
 /* Comments box END*/
+
+/* Responsive */
+@media (max-width: 768px)
+{
+    .banner .row
+    {
+        text-align: center;
+    }
+
+    .banner-line
+    {
+        justify-content: center;
+    }
+}

@@ -3,14 +3,14 @@
     <section class="banner">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <div class="box d-flex justify-content-center align-items-center rounded-5">
                         <h1 class="bannerTitle text-center">
                             {{ $homeData['banner']['main_title'] ?? '' }}
                         </h1>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <p>
                         @foreach ($homeData['banner']['subtitle'] as $line)
                             <span class="banner-line">
