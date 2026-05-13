@@ -8,58 +8,69 @@
 
                         <!-- Logo -->
                         <div class="mb-6">
-                            <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}"
-                                 alt="Informatio Libera"
-                                 class="w-32" height="140">
+                            <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}" alt="Informatio Libera"
+                                class="w-32" height="140">
                         </div>
 
                         <h3 class="mb-6">
                             Inscription
                         </h3>
 
-                        <form method="POST" action="{{ route('register') }}" class="space-y-5">
+                        <form method="POST" action="{{ route('register') }}">
                             @csrf
 
                             <!-- Name -->
-                            <div>
+                            <div class="mb-4">
                                 <x-input-label for="name" :value="__('Nom')" />
-                                <div class="input-icon-box">
+
+                                <div class="input-icon-box my-4">
                                     <i class="fa-solid fa-user"></i>
-                                    <x-text-input id="name" type="text" name="name"
-                                        :value="old('name')" required autofocus />
+
+                                    <x-text-input id="name" type="text" name="name" :value="old('name')"
+                                        required autofocus />
                                 </div>
+
                                 <x-input-error :messages="$errors->get('name')" class="mt-2 text-red-500" />
                             </div>
 
                             <!-- Email -->
-                            <div>
+                            <div class="mb-4">
                                 <x-input-label for="email" :value="__('Email')" />
+
                                 <div class="input-icon-box">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <x-text-input id="email" type="email" name="email"
-                                        :value="old('email')" required />
+
+                                    <x-text-input id="email" type="email" name="email" :value="old('email')"
+                                        required />
                                 </div>
+
                                 <x-input-error :messages="$errors->get('email')" class="mt-2 text-red-500" />
                             </div>
 
                             <!-- Password -->
-                            <div>
+                            <div class="mb-4">
                                 <x-input-label for="password" :value="__('Mot de passe')" />
+
                                 <div class="input-icon-box">
                                     <i class="fa-solid fa-lock"></i>
+
                                     <x-text-input id="password" type="password" name="password" required />
                                 </div>
+
                                 <x-input-error :messages="$errors->get('password')" class="mt-2 text-red-500" />
                             </div>
 
                             <!-- Confirm Password -->
-                            <div>
+                            <div class="mb-4">
                                 <x-input-label for="password_confirmation" :value="__('Confirmer le mot de passe')" />
+
                                 <div class="input-icon-box">
                                     <i class="fa-solid fa-lock"></i>
+
                                     <x-text-input id="password_confirmation" type="password"
                                         name="password_confirmation" required />
                                 </div>
+
                                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2 text-red-500" />
                             </div>
 

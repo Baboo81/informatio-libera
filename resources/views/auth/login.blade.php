@@ -1,82 +1,97 @@
 <x-guest-layout>
     <section class="login-content">
         <div class="container">
-            <div class="row block-card">
+            <div class="row justify-content-center">
 
-                <div class="black-box">
-                    <div class="col-6">
+                <div class="black-box d-flex justify-content-center">
+                    <div class="col-md-6 text-center">
+
                         <!-- Logo -->
-                        <div class="mb-6">
+                        <div class="mb-5">
                             <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}" alt="Informatio Libera"
-                                class="w-32" height="140">
+                                class="img-fluid" style="width: 140px;">
                         </div>
 
-                        <h3 class="mb-6">
+                        <h3 class="mb-5">
                             Connexion
                         </h3>
 
                         <!-- Session Status -->
-                        <x-auth-session-status class="mb-4 text-green-600" :status="session('status')" />
+                        <x-auth-session-status class="mb-4 text-success" :status="session('status')" />
 
-                        <form method="POST" action="{{ route('login') }}" class="space-y-5">
+                        <form method="POST" action="{{ route('login') }}">
                             @csrf
 
                             <!-- Email -->
-                            <div>
+                            <div class="mb-4 text-start">
+
                                 <x-input-label for="email" :value="__('Email')" />
+
                                 <div class="input-icon-box">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <x-text-input id="email" class="" type="email" name="email"
-                                        :value="old('email')" required autofocus />
+
+                                    <x-text-input id="email" type="email" name="email" :value="old('email')"
+                                        required autofocus />
                                 </div>
 
-                                <x-input-error :messages="$errors->get('email')" class="mt-2 text-red-500" />
+                                <x-input-error :messages="$errors->get('email')" class="mt-2 text-danger" />
+
                             </div>
 
                             <!-- Password -->
-                            <div>
+                            <div class="mb-4 text-start">
+
                                 <x-input-label for="password" :value="__('Mot de passe')" />
+
                                 <div class="input-icon-box">
                                     <i class="fa-solid fa-lock"></i>
-                                    <x-text-input id="password" class="" type="password" name="password"
-                                        required />
+
+                                    <x-text-input id="password" type="password" name="password" required />
                                 </div>
 
-                                <x-input-error :messages="$errors->get('password')" class="mt-2 text-red-500" />
+                                <x-input-error :messages="$errors->get('password')" class="mt-2 text-danger" />
+
                             </div>
 
                             <!-- Remember -->
-                            <div class="flex items-center justify-between text-sm">
-                                <label for="remember_me" class="flex items-center">
-                                    <input id="remember_me" type="checkbox" class="rounded text-blue-600"
-                                        name="remember">
-                                    <span class="ml-2 text-gray-600">Se souvenir de moi</span>
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+
+                                <label for="remember_me" class="d-flex align-items-center">
+                                    <input id="remember_me" type="checkbox" class="form-check-input" name="remember">
+
+                                    <span class="ms-2 text-secondary">
+                                        Se souvenir de moi
+                                    </span>
                                 </label>
 
                                 @if (Route::has('password.request'))
-                                    <a href="{{ route('password.request') }}" class="text-blue-600 hover:underline">
+                                    <a href="{{ route('password.request') }}" class="text-primary text-decoration-none">
                                         Mot de passe oublié ?
                                     </a>
                                 @endif
+
                             </div>
 
-                            <!-- Button -->
-                            <div class="my-5">
+                            <!-- Buttons -->
+                            <div class="d-flex justify-content-center gap-3 mt-5">
+
                                 <button type="submit" class="btn">
                                     Se connecter
                                 </button>
+
+                                <a href="{{ url('/') }}">
+                                    <button class="btn" type="button">
+                                        Retour accueil
+                                    </button>
+                                </a>
+
                             </div>
+
                         </form>
-                        <!-- Btn retour vers l'accueil -->
-                        <div class="text-center my-3">
-                            <a href="{{ url('/') }}">
-                                <button class="btn" type="button">
-                                    Retour vers l'accueil
-                                </button>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
