@@ -23,3 +23,5 @@
 ### 📡 Réseaux / Plateformes
 - SEL Belgique
 - GASAP
+
+### 📡 Responsive
