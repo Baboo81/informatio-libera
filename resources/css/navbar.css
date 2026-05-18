@@ -108,6 +108,16 @@
     font-weight: bold;
 }
 
+.deconnexion
+{
+    color: var(--bleuFoncé);
+}
+
+.deconnexion:hover
+{
+    color: var(--bleuPétrole) !important;
+}
+
 /* ================= HEADER RESPONSIVE ================= */
 
 @media (max-width: 1200px)
