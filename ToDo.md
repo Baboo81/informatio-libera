@@ -25,3 +25,4 @@
 - GASAP
 
 ### 📡 Responsive
+- Vérifier les cards
