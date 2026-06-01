@@ -1,5 +1,5 @@
 <x-app-layout>
-    <section class="geopolitique-content">
+    <section class="actualite-content">
         <div class="container">
             <div class="black-box">
                 <div class="row justify-content-center">

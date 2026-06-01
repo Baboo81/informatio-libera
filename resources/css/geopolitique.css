@@ -16,12 +16,12 @@ body
 
 h1
 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3rem);
 }
 
 h2
 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3rem);
     color: var(--bleuFoncé);
 }
 
@@ -32,8 +32,8 @@ h6
 
 p.lead
 {
-    font-size: 2rem;
-    color: #FFFFFF !important;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    color: var(--bleuFoncé);
 }
 
 /*******************/
@@ -43,6 +43,14 @@ p.lead
 .geopolitique-content
 {
     padding: 200px 0;
+}
+
+@media (max-width: 768px)
+{
+    .geopolitique-content
+    {
+        padding: 80px 0;
+    }
 }
 
 .block-card
