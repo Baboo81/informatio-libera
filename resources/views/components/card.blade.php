@@ -1,5 +1,5 @@
 <div class="">
-    <div class="card box-shadow mx-auto my-5" style="width: 43rem; position: relative;">
+    <div class="card box-shadow mx-auto my-5 card-custom">
 
         {{-- Image avec wrapper pour la vague --}}
         @if ($image)
