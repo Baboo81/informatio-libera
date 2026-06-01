@@ -6,13 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Informatio Libera - Réinformation et analyse de l'actualité</title>
+
+    <meta name="description"
+        content="Informatio Libera propose des analyses, réflexions et ressources autour de l'actualité, de la géopolitique, de la santé et des enjeux contemporains.">
+
+    <meta name="keywords"
+        content="actualité, géopolitique, santé, réinformation, analyse, société, technologie">
+
+    <meta name="author" content="Informatio Libera">
+
+        <!-- Open Graph -->
+    <meta property="og:title"
+        content="Informatio Libera - Réinformation et analyse de l'actualité">
+
+    <meta property="og:description"
+        content="Analyses et ressources autour de l'actualité, de la géopolitique, de la santé et des enjeux contemporains.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://informatio-libera.be">
+
+    <meta property="og:image"
+        content="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}">
 
     <!-- Bootstrap 5 CSS (CDN) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Bootstrap 5 : icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        type="image/png"
+        href="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}">
+
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
