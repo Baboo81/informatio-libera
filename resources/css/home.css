@@ -178,17 +178,13 @@ p
 
 .bannerTitle
 {
-    font-size: clamp()1.8rem, 5vw, 3rem;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     color: var(--blancCassé);
 }
 
 /*******************/
 /*  main-content  */
 /******************/
-.col-box
-{
-    padding: 300px 0;
-}
 
 article
 {
@@ -215,28 +211,48 @@ article
     flex: 0 0 auto; /* taille du logo fixe */
 }
 
-.main-logo {
-    width: 550px; /* ajuste selon ton design */
+.main-logo
+{
+    width: 100%;
+    width: 300px;
     height: auto;
+    display: block;
 }
 
 
 /* Espace supplémentaire entre banner et box */
-.main-content .black-box {
+.main-content .black-box
+{
     margin-top: 60px;
     margin-bottom: 60px;
 }
-/* Guillemets END*/
 
-/* Comments box */
-.comments
+@media (max-width: 768px)
 {
-    padding: 300px 0;
+    .black-box
+    {
+        padding: 40px 20px;
+        border-radius: 25px;
+    }
 }
 
+/* Comments box */
+
+.col-box,
+.comments,
 .comments-box
 {
-    padding: 300px 0;
+    padding: 100px 0;
+}
+
+@media (max-width: 768px)
+{
+    .col-box,
+    .comments,
+    .comments-box
+    {
+        padding: 50px 0;
+    }
 }
 
 .comment-bubble
@@ -276,5 +292,27 @@ article
     .banner-line
     {
         justify-content: center;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .comment-bubble
+    {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .logo-container
+    {
+        justify-content: center !important;
+        margin-bottom: 2rem;
+    }
+
+    .quote-text
+    {
+        text-align: center;
     }
 }

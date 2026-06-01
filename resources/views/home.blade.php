@@ -36,7 +36,7 @@
                         </h2>
 
                         <!-- Conteneur flex pour logo et texte -->
-                        <div class="row">
+                        <div class="row gx-5">
                             <!-- Logo à gauche -->
                             <div class="col-md-4 d-flex justify-content-center justify-content-md-start logo-container">
                                 <img src="{{ asset('assets/img/logo/InfoLiberLogo.svg') }}"
@@ -45,8 +45,7 @@
                             </div>
 
                             <div class="col-md-8">
-                                <!-- Texte avec guillemets à droite -->
-                                <article class="quote d-flex align-items-start">
+                                <article class="d-flex align-items-start">
                                     <p class="quote-text text-center">
                                         {{ $homeData['main_content']['content'] ?? '' }}
                                     </p>
